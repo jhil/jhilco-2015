@@ -9,7 +9,8 @@ layout: default
     {% for post in site.posts %}
       <li class="text-center" style="background-color:{{ post.color }}">
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="http://{{ post.link }}">{{ post.title }}</a> <!-- temporary until blog posts are written -->
+          <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
         </h2>
         <p class="post-meta">{{ post.excerpt }}</p>
         <p class="post-meta">{{ post.date | date: "%Y" }}</p>
