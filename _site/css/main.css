@@ -261,6 +261,7 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
+    max-width: 720px;
     padding: 60px 40px;
     color: #fff;
     margin-bottom: 20px; }
@@ -270,6 +271,9 @@ pre {
 .post-meta {
   text-transform: lowercase;
   margin: 0; }
+  @media screen and (max-width: 800px) {
+    .post-meta {
+      display: none; } }
 
 .home .post-meta {
   color: #fff; }
@@ -279,7 +283,7 @@ pre {
   font-size: 60px; }
   @media screen and (max-width: 800px) {
     .post-link {
-      font-size: 48px; } }
+      font-size: 36px; } }
 
 a.post-link {
   color: #fff; }

@@ -172,6 +172,7 @@
     list-style: none;
 
     > li {
+        max-width: 720px;
         padding: $spacing-unit*1.5 $spacing-unit;
         color: $white;
         margin-bottom: $spacing-unit/2;
@@ -186,6 +187,11 @@
 .post-meta {
     text-transform: lowercase;
     margin: 0;
+
+    @include media-query($on-laptop) {
+        display: none;
+    }
+
 }
 
 .home .post-meta {
@@ -197,7 +203,7 @@
     font-size: 60px;
 
     @include media-query($on-laptop) {
-        font-size: 48px;
+        font-size: 36px;
     }
 
 }
