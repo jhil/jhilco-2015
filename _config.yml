@@ -2,7 +2,7 @@
 title: Jeff Hilnbrand
 email: jahilnbrand@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hey there, I'm Jeff Hilnbrand. I like making cool things with cool people.
+  Hey there, I'm Jeff. I like making cool things with cool people.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site
 permalink: /:title # example: http://jhil.co/bitcamp
