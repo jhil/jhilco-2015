@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Bop It!"
+date:   2014-02-14
+link:	bopit.io
+excerpt: Immersive Leap Motion toy
+color:	"#71607f"
+---
+Content. Someday.

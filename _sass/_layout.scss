@@ -90,7 +90,8 @@
  */
 .site-footer {
     // border-top: 1px solid $grey-light;
-    padding: $spacing-unit/2 0 $spacing-unit;
+    padding: $spacing-unit/4 0 $spacing-unit;
+    margin: 0;
 }
 
 .footer-heading {
@@ -171,7 +172,7 @@
     list-style: none;
 
     > li {
-        padding: 60px 0;
+        padding: $spacing-unit*1.5 $spacing-unit;
         color: $white;
         margin-bottom: $spacing-unit/2;
 

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Anjoyd"
+date:   2013-10-06
+link:	anjoyd.org
+excerpt: Truck driven by android joystick and Google Glass
+color:	"#99cc00"
+---
+Content. Someday.
