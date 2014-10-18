@@ -89,8 +89,8 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-light;
-    padding: $spacing-unit 0;
+    // border-top: 1px solid $grey-light;
+    padding: $spacing-unit/2 0 $spacing-unit;
 }
 
 .footer-heading {
@@ -183,6 +183,7 @@
 }
 
 .post-meta {
+    text-transform: lowercase;
     margin: 0;
 }
 
@@ -193,6 +194,11 @@
 .post-link {
     display: block;
     font-size: 60px;
+
+    @include media-query($on-laptop) {
+        font-size: 48px;
+    }
+
 }
 
 a.post-link {

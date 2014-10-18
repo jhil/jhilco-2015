@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
+  color: #555;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -181,7 +182,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #222; }
+            fill: #555; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -199,8 +200,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #ccc;
-  padding: 40px 0; }
+  padding: 20px 0 40px; }
 
 .footer-heading {
   font-size: 18px;
@@ -267,6 +267,7 @@ pre {
       margin: 0; }
 
 .post-meta {
+  text-transform: lowercase;
   margin: 0; }
 
 .home .post-meta {
@@ -275,6 +276,9 @@ pre {
 .post-link {
   display: block;
   font-size: 60px; }
+  @media screen and (max-width: 960px) {
+    .post-link {
+      font-size: 48px; } }
 
 a.post-link {
   color: #fff; }

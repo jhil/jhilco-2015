@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
+    color: $grey-dark; // overwrite this when possible, this merely serves as a catch-all just in case
     text-decoration: none;
 
     &:hover {
