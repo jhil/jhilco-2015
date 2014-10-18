@@ -15,12 +15,15 @@ $heading-font-family: 'Hind', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $spacing-unit:     40px;
 
-$text-color:       $grey;
 
+$grey-dark:       	#222;
 $grey:       		#999;
 $grey-light:       	#ccc;
 $grey-lighter:     	#eee;
 $white:				#fff;
+
+$text-color:       $grey;
+
 
 $on-palm:          600px;
 $on-laptop:        960px;
