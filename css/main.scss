@@ -13,7 +13,9 @@ $base-line-height: 1.5;
 
 $heading-font-family: 'Hind', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-$spacing-unit:     30px;
+$post-color:     #dd6666;
+
+$spacing-unit:     40px;
 
 $text-color:       #999;
 $background-color: #fdfdfd;
@@ -23,8 +25,10 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$white:				#fff;
+
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        960px;
 
 
 

@@ -2,12 +2,14 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 100px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .wrapper {
+        border-bottom: 1px solid $grey-color-light;
+    }
 }
 
 .site-title {
@@ -16,7 +18,7 @@
 
 .site-nav {
     float: left;
-    line-height: 56px;
+    line-height: 100px;
 
     .menu-icon {
         display: none;
@@ -169,20 +171,37 @@
     list-style: none;
 
     > li {
+        padding: 60px 0;
+        color: $white;
+        background-color: $post-color;
         margin-bottom: $spacing-unit;
+
+        h2, p {
+            margin: 0;
+        }
+
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+}
+
+.home .post-meta {
+    color: $white;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 60px;
 }
 
+a.post-link {
+    color: $white;
+    &:hover {
+        text-decoration: none;
+    }
+}
 
 
 /**
@@ -228,4 +247,14 @@
             font-size: 18px;
         }
     }
+}
+
+
+
+/**
+ * Other styles
+ */
+
+.text-center {
+    text-align: center;
 }
