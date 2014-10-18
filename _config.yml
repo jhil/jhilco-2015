@@ -6,9 +6,15 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jhil.co" # the base hostname & protocol for your site
 permalink: /:title # example: http://jhil.co/bitcamp
-twitter_username: jhilmd
-github_username:  jhil
 timezone: America/New_York
+
+# Social
+twitter_username:	jhilmd
+linkedin_username:	jhilnbrand
+dribbble_username:	jhil
+github_username:	jhil
+medium_username:	jhilmd
+behance_username:	jhil
 
 # Build settings
 markdown: kramdown
