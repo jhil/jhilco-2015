@@ -184,11 +184,17 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    margin: 0;
+    // font-size: $small-font-size;
 }
 
 .home .post-meta {
     color: $white;
+}
+
+a.post-meta {
+    color: $text-color;
+    
 }
 
 .post-link {
@@ -212,7 +218,8 @@ a.post-link {
 }
 
 .post-title {
-    font-size: 42px;
+    color: $post-color;
+    font-size: 60px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -257,4 +264,24 @@ a.post-link {
 
 .text-center {
     text-align: center;
+}
+
+// ::selection {
+//   background: $brand-color; /* WebKit/Blink Browsers */
+//   color: $white;
+// }
+// ::-moz-selection {
+//   background: $brand-color; /* Gecko Browsers */
+//   color: $white;
+// }
+
+.post {
+    ::selection {
+      background: $post-color; /* WebKit/Blink Browsers */
+      color: $white;
+    }
+    ::-moz-selection {
+      background: $post-color; /* Gecko Browsers */
+      color: $white;
+    }
 }

@@ -273,10 +273,13 @@ pre {
       margin: 0; }
 
 .post-meta {
-  font-size: 14px; }
+  margin: 0; }
 
 .home .post-meta {
   color: #fff; }
+
+a.post-meta {
+  color: #999; }
 
 .post-link {
   display: block;
@@ -294,7 +297,8 @@ a.post-link {
   margin-bottom: 40px; }
 
 .post-title {
-  font-size: 42px;
+  color: #dd6666;
+  font-size: 60px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 960px) {
@@ -324,6 +328,15 @@ a.post-link {
  */
 .text-center {
   text-align: center; }
+
+.post ::selection {
+  background: #dd6666;
+  /* WebKit/Blink Browsers */
+  color: #fff; }
+.post ::-moz-selection {
+  background: #dd6666;
+  /* Gecko Browsers */
+  color: #fff; }
 
 /**
  * Syntax highlighting styles
