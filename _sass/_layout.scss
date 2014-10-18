@@ -2,13 +2,13 @@
  * Site header
  */
 .site-header {
-    min-height: 100px;
+    min-height: 80px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 
     .wrapper {
-        border-bottom: 1px solid $grey-color-light;
+        border-bottom: 1px solid $grey-light;
     }
 }
 
@@ -18,7 +18,7 @@
 
 .site-nav {
     float: left;
-    line-height: 100px;
+    line-height: 80px;
 
     .menu-icon {
         display: none;
@@ -38,8 +38,8 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $grey-lighter;
+        border: 1px solid $grey-light;
         border-radius: 5px;
         text-align: right;
 
@@ -57,7 +57,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $grey-dark;
                 }
             }
         }
@@ -89,7 +89,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $grey-light;
     padding: $spacing-unit 0;
 }
 
@@ -106,7 +106,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -173,8 +173,8 @@
     > li {
         padding: 60px 0;
         color: $white;
-        background-color: $post-color;
-        margin-bottom: $spacing-unit;
+        // background-color: $post-color;
+        margin-bottom: $spacing-unit/2;
 
         h2, p {
             margin: 0;
@@ -185,10 +185,6 @@
 
 .post-meta {
     margin: 0;
-    // font-size: $small-font-size;
-    a {
-        color: $text-color;
-    }
 }
 
 .home .post-meta {
@@ -216,13 +212,13 @@ a.post-link {
 }
 
 .post-title {
-    color: $post-color;
+    // color: $post-color;
     font-size: 60px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 48px;
     }
 }
 
@@ -264,22 +260,11 @@ a.post-link {
     text-align: center;
 }
 
-// ::selection {
-//   background: $brand-color; /* WebKit/Blink Browsers */
-//   color: $white;
-// }
-// ::-moz-selection {
-//   background: $brand-color; /* Gecko Browsers */
-//   color: $white;
-// }
-
-.post {
-    ::selection {
-      background: $post-color; /* WebKit/Blink Browsers */
-      color: $white;
-    }
-    ::-moz-selection {
-      background: $post-color; /* Gecko Browsers */
-      color: $white;
-    }
+::selection {
+    background-color: $grey-light;
+    color: $white;
+}
+::-moz-selection {
+    background-color: $grey-light;
+    color: $white;
 }

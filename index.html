@@ -2,11 +2,12 @@
 layout: default
 ---
 
+
 <div class="home">
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li class="text-center">
+      <li class="text-center" style="background-color:{{ post.color }}">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>

@@ -19,7 +19,6 @@ body {
     line-height: $base-line-height;
     font-weight: 400;
     color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -90,19 +89,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $post-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
 
     &:hover {
         color: $post-color;
         text-decoration: underline;
     }
 }
-
 
 
 /**

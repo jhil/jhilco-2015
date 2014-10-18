@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
+
+ 	{% include post-customization.html %}
+
 <div class="post">
 
   <header class="post-header text-center">
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.link %}<p class="post-meta"><a target="_blank" href="http://{{ page.link }}">{{ page.link }}</a></p>{% endif %}
     <p class="post-meta">{{ page.date | date: "%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p></p>
+
 
   </header>
 

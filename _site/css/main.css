@@ -65,10 +65,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #dd6666;
   text-decoration: none; }
-  a:visited {
-    color: #1756a9; }
   a:hover {
     color: #dd6666;
     text-decoration: underline; }
@@ -147,7 +144,7 @@ pre {
  * Site header
  */
 .site-header {
-  min-height: 100px;
+  min-height: 80px;
   position: relative; }
   .site-header .wrapper {
     border-bottom: 1px solid #e8e8e8; }
@@ -157,7 +154,7 @@ pre {
 
 .site-nav {
   float: left;
-  line-height: 100px; }
+  line-height: 80px; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
@@ -267,15 +264,12 @@ pre {
   .post-list > li {
     padding: 60px 0;
     color: #fff;
-    background-color: #dd6666;
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
     .post-list > li h2, .post-list > li p {
       margin: 0; }
 
 .post-meta {
   margin: 0; }
-  .post-meta a {
-    color: #999; }
 
 .home .post-meta {
   color: #fff; }
@@ -296,13 +290,12 @@ a.post-link {
   margin-bottom: 40px; }
 
 .post-title {
-  color: #dd6666;
   font-size: 60px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 960px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 48px; } }
 
 .post-content {
   margin-bottom: 40px; }
@@ -328,13 +321,12 @@ a.post-link {
 .text-center {
   text-align: center; }
 
-.post ::selection {
-  background: #dd6666;
-  /* WebKit/Blink Browsers */
+::selection {
+  background-color: #2a7ae2;
   color: #fff; }
-.post ::-moz-selection {
-  background: #dd6666;
-  /* Gecko Browsers */
+
+::-moz-selection {
+  background-color: #2a7ae2;
   color: #fff; }
 
 /**
