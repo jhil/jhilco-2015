@@ -59,7 +59,7 @@ li > ol {
  */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700; }
+  font-weight: 600; }
 
 /**
  * Links
@@ -153,16 +153,10 @@ pre {
   position: relative; }
 
 .site-title {
-  font-size: 26px;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
+  font-weight: 900; }
 
 .site-nav {
-  float: right;
+  float: left;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
@@ -202,6 +196,9 @@ pre {
       .site-nav .page-link {
         display: block;
         padding: 5px 10px; } }
+
+.site-nav-right {
+  float: right; }
 
 /**
  * Site footer

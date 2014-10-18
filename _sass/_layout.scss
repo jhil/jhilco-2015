@@ -11,20 +11,11 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+    font-weight: 900;
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
 
     .menu-icon {
@@ -84,6 +75,10 @@
             padding: 5px 10px;
         }
     }
+}
+
+.site-nav-right {
+    float: right;
 }
 
 
