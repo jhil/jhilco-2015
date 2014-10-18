@@ -260,12 +260,12 @@ pre {
 .post-list {
   margin-left: 0;
   list-style: none; }
-  .post-list > li {
+  .post-list > a {
     max-width: 720px;
     padding: 60px 40px;
     color: #fff;
     margin-bottom: 20px; }
-    .post-list > li h2, .post-list > li p {
+    .post-list > a h2, .post-list > a p {
       margin: 0; }
 
 .post-meta {
@@ -279,11 +279,12 @@ pre {
   color: #fff; }
 
 .post-link {
-  display: block;
-  font-size: 60px; }
-  @media screen and (max-width: 800px) {
-    .post-link {
-      font-size: 36px; } }
+  display: block; }
+  .post-link h2 {
+    font-size: 60px; }
+    @media screen and (max-width: 800px) {
+      .post-link h2 {
+        font-size: 36px; } }
 
 a.post-link {
   color: #fff; }

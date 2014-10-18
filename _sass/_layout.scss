@@ -171,7 +171,7 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
+    > a {
         max-width: 720px;
         padding: $spacing-unit*1.5 $spacing-unit;
         color: $white;
@@ -200,10 +200,13 @@
 
 .post-link {
     display: block;
-    font-size: 60px;
+    
+    h2 {
+        font-size: 60px;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
     }
 
 }

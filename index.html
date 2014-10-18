@@ -7,14 +7,13 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li class="text-center" style="background-color:{{ post.color }}">
-        <h2>
-          <a class="post-link" target="_blank" href="http://{{ post.link }}">{{ post.title }}</a> <!-- temporary until blog posts are written -->
-          <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
-        </h2>
-        <p class="post-meta">{{ post.excerpt }}</p>
-        <p class="post-meta">{{ post.date | date: "%Y" }}</p>
-      </li>
+      <a class="post-link" style="background-color:{{ post.color }}" target="_blank" href="http://{{ post.link }}">
+        <li class="text-center">
+          <h2>{{ post.title }}</h2>
+          <p class="post-meta">{{ post.excerpt }}</p>
+          <p class="post-meta">{{ post.date | date: "%Y" }}</p>
+        </li>
+      </a>
     {% endfor %}
   </ul>
 
