@@ -274,12 +274,11 @@ pre {
 
 .post-meta {
   margin: 0; }
+  .post-meta a {
+    color: #999; }
 
 .home .post-meta {
   color: #fff; }
-
-a.post-meta {
-  color: #999; }
 
 .post-link {
   display: block;

@@ -186,15 +186,13 @@
 .post-meta {
     margin: 0;
     // font-size: $small-font-size;
+    a {
+        color: $text-color;
+    }
 }
 
 .home .post-meta {
     color: $white;
-}
-
-a.post-meta {
-    color: $text-color;
-    
 }
 
 .post-link {
