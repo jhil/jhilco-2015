@@ -4,6 +4,6 @@ title:  "Imaginex"
 date:   2013-05-31
 link:	imaginex.co
 excerpt: Branding for creative technology studio
-color:  "#78FFFF"
+color:  "#111111"
 ---
 Content. Someday.
