@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "ADI"
+date:   2014-08-28
+link:	adicu.com
+excerpt: Design for Columbia University group
+color:	"#59ACFF"
+---
+Content. Someday.
