@@ -14,16 +14,18 @@ Imaginex is a creative technology studio that produces immersive, multi-sensory 
 
 ## Brand
 
-
+At the time, the company name was [stylized as imagine(x)](https://umddingman.files.wordpress.com/2012/11/imaginex.jpg). In an effort to make the brand more timeless, we quickly adjusted the capitalization and punctuation. We also settled on the tagline "Creative Reality" to suggest the idea that the Imaginex vision is not limited by the traditional constraints of our physical world.
 
 ## Logo
 
+We wanted the new Imaginex logo to be edgy and futuristic without being 
 
+## Video
 
-# Video
+I attended 
 
+<div class="embed-container">
+	<iframe src="//player.vimeo.com/video/67373009?title=0&amp;byline=0&amp;portrait=0&amp;color=78ffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
-
-<iframe src="//player.vimeo.com/video/67373009?title=0&amp;byline=0&amp;portrait=0&amp;color=78ffff" width="1920" height="1079" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-# Website
+## Website

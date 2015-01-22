@@ -1,6 +1,6 @@
-/**
- * Reset some basic elements
- */
+
+// RESET
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -9,24 +9,8 @@ dl, dd, ol, ul, figure {
 }
 
 
+// VERTICAL RHYTHM
 
-/**
- * Basic styling
- */
-body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 400;
-    color: $text-color;
-    -webkit-text-size-adjust: 100%;
-}
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -35,20 +19,32 @@ ul, ol, dl, figure,
 }
 
 
+// MEDIA
 
-/**
- * Images
- */
-img {
+img, .video {
     max-width: 100%;
     vertical-align: middle;
 }
 
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+
+    iframe, object, embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
 
 
-/**
- * Figures
- */
+// FIGURES
+
 figure > img {
     display: block;
 }
@@ -58,10 +54,8 @@ figcaption {
 }
 
 
+// LISTS
 
-/**
- * Lists
- */
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -74,79 +68,8 @@ li {
 }
 
 
+// WRAPPER
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-family: $heading-font-family;
-    font-weight: 600;
-}
-
-
-
-/**
- * Links
- */
-a {
-    color: $grey-dark; // overwrite this when possible, this merely serves as a catch-all just in case
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey;
-    border-left: 4px solid $grey-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-
-
-/**
- * Wrapper
- */
 .wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
@@ -165,10 +88,8 @@ pre {
 }
 
 
+// CLEARFIX
 
-/**
- * Clearfix
- */
 %clearfix {
 
     &:after {
@@ -179,16 +100,14 @@ pre {
 }
 
 
+// ICONS
 
-/**
- * Icons
- */
 .icon {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 1rem;
+        height: 1rem;
         vertical-align: middle;
 
         path {

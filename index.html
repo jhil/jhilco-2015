@@ -6,9 +6,10 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
+
     {% for post in site.posts %}
-      <a class="post-link" style="background-color:{{ post.color }}" href="http://{{ post.link }}">
-      <!-- <a class="post-link" style="background-color:{{ post.color }}" href="{{ post.url | prepend: site.baseurl }}"> -->
+      <!-- <a class="post-link" style="background-color:{{ post.color }}" href="http://{{ post.link }}"> -->
+      <a class="post-link" style="background-color:{{ post.color }}" href="{{ post.url | prepend: site.baseurl }}">
         <li class="text-center">
           <h2>{{ post.title }}</h2>
           <p class="post-meta">{{ post.excerpt }}</p>
@@ -16,6 +17,7 @@ layout: default
         </li>
       </a>
     {% endfor %}
+    
   </ul>
 
 </div>
