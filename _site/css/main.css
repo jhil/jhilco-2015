@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 20px; }
+  margin-bottom: 1.5rem; }
 
 /**
  * Images
@@ -47,7 +47,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 40px; }
+  margin-left: 3rem; }
 
 li > ul,
 li > ol {
@@ -75,7 +75,7 @@ a {
 blockquote {
   color: #555555;
   border-left: 4px solid #cccccc;
-  padding-left: 20px;
+  padding-left: 1.5rem;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -107,18 +107,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (40px * 2));
-  max-width: calc(800px - (40px * 2));
+  max-width: -webkit-calc(800px - (3rem * 2));
+  max-width: calc(800px - (3rem * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 40px;
-  padding-left: 40px; }
+  padding-right: 3rem;
+  padding-left: 3rem; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (40px));
-      max-width: calc(800px - (40px));
-      padding-right: 20px;
-      padding-left: 20px; } }
+      max-width: -webkit-calc(800px - (3rem));
+      max-width: calc(800px - (3rem));
+      padding-right: 1.5rem;
+      padding-left: 1.5rem; } }
 
 /**
  * Clearfix
@@ -172,12 +172,12 @@ pre {
  * Site footer
  */
 .site-footer {
-  padding: 0 0 30px;
+  padding: 0 0 2.25rem;
   margin: 0; }
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 20px; }
+  margin-bottom: 1.5rem; }
 
 .contact-list,
 .social-media-list {
@@ -187,44 +187,44 @@ pre {
 .footer-col-wrapper {
   font-size: 15px;
   color: #555555;
-  margin-left: -20px; }
+  margin-left: -1.5rem; }
 
 .footer-col {
   float: left;
-  margin-bottom: 20px;
-  padding-left: 20px; }
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem; }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (40px / 2));
-  width: calc(35% - (40px / 2)); }
+  width: -webkit-calc(35% - (3rem / 2));
+  width: calc(35% - (3rem / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (40px / 2));
-  width: calc(20% - (40px / 2)); }
+  width: -webkit-calc(20% - (3rem / 2));
+  width: calc(20% - (3rem / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (40px / 2));
-  width: calc(45% - (40px / 2)); }
+  width: -webkit-calc(45% - (3rem / 2));
+  width: calc(45% - (3rem / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
-    width: -webkit-calc(50% - (40px / 2));
-    width: calc(50% - (40px / 2)); }
+    width: -webkit-calc(50% - (3rem / 2));
+    width: calc(50% - (3rem / 2)); }
 
   .footer-col-3 {
-    width: -webkit-calc(100% - (40px / 2));
-    width: calc(100% - (40px / 2)); } }
+    width: -webkit-calc(100% - (3rem / 2));
+    width: calc(100% - (3rem / 2)); } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (40px / 2));
-    width: calc(100% - (40px / 2)); } }
+    width: -webkit-calc(100% - (3rem / 2));
+    width: calc(100% - (3rem / 2)); } }
 /**
  * Page content
  */
 .page-content {
-  padding: 40px 0; }
+  padding: 3rem 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -234,9 +234,9 @@ pre {
   list-style: none; }
   .post-list > a {
     max-width: 720px;
-    padding: 66px 40px;
+    padding: 66px 3rem;
     color: white;
-    margin-bottom: 20px; }
+    margin-bottom: 1.5rem; }
     .post-list > a h2, .post-list > a p {
       margin: 0; }
 
@@ -267,7 +267,7 @@ a.post-link {
  * Posts
  */
 .post-header {
-  margin-bottom: 40px; }
+  margin-bottom: 3rem; }
 
 .post-title {
   font-size: 60px;
@@ -278,9 +278,10 @@ a.post-link {
       font-size: 48px; } }
 
 .post-content {
-  margin-bottom: 40px; }
+  margin-bottom: 3rem; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 32px;
+    margin-top: 3rem; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }

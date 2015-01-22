@@ -200,6 +200,7 @@ a.post-link {
 
     h2 {
         font-size: 32px;
+        margin-top: $spacing-unit;
 
         @include media-query($on-laptop) {
             font-size: 28px;

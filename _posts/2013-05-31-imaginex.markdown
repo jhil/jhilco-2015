@@ -8,15 +8,15 @@ color:  "#111111"
 ---
 Over the years, I've had the pleasure of working with [Eric Mintzer](https://twitter.com/ericmintzer) and the Imaginex team on a number of projects. We met through [Startup Shell](http://startupshell.org) and continue to learn from each other to this day. With my unofficial role as "Doctor Professor Lawyer," we've built an incredible brand, created exciting videos, and built slick websites for the company.
 
-# The Company
+## The Company
 
 Imaginex is a creative technology studio that produces immersive, multi-sensory experiences. Companies hire Imaginex for their most challenging projects and entrust their budgets in the team's wide expertise: from projector mapping to lighting, from software to fabrication.
 
-# Brand
+## Brand
 
 
 
-# Logo
+## Logo
 
 
 

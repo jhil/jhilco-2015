@@ -3,33 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: 'Inconsolata', "Courier New", monospace;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$heading-font-family: 'Hind', "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-$spacing-unit:     40px;
-
-
-$grey-dark:       	#222;
-$grey:       		#555;
-$grey-light:       	#ccc;
-$grey-lighter:     	#eee;
-$white:				#fff;
-
-$text-color:       $grey;
-
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -47,6 +20,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+		"variables",
         "base",
         "layout",
         "syntax-highlighting"
