@@ -2,8 +2,8 @@
 layout: post
 title:  "Architecture"
 date:   2014-12-16
-link:	
+link:	#
 excerpt: Explorations in the built environment
-color:  "#"
+color:  "#3471aa"
 ---
 
