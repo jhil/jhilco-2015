@@ -6,9 +6,20 @@
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Jan 2015 20:40:09 -0500</pubDate>
-    <lastBuildDate>Thu, 22 Jan 2015 20:40:09 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2015 14:25:13 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2015 14:25:13 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Heads</title>
+        <description>
+</description>
+        <pubDate>Thu, 22 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://jhil.co/heads</link>
+        <guid isPermaLink="true">http://jhil.co/heads</guid>
+        
+        
+      </item>
     
       <item>
         <title>Architecture</title>
@@ -105,17 +116,6 @@
         <pubDate>Fri, 14 Feb 2014 00:00:00 -0500</pubDate>
         <link>http://jhil.co/bopit</link>
         <guid isPermaLink="true">http://jhil.co/bopit</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Facetoaster</title>
-        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Jan 2014 00:00:00 -0500</pubDate>
-        <link>http://jhil.co/facetoaster</link>
-        <guid isPermaLink="true">http://jhil.co/facetoaster</guid>
         
         
       </item>

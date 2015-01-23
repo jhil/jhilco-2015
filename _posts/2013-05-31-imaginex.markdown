@@ -8,30 +8,47 @@ color:  "#111111"
 ---
 Over the years, I've had the pleasure of working with [Eric Mintzer](https://twitter.com/ericmintzer) and the Imaginex team on a number of projects. We met through [Startup Shell](http://startupshell.org) and continue to learn from each other to this day. With my unofficial role as "Doctor Professor Lawyer," we've built an incredible brand, created exciting videos, and built slick websites for the company.
 
-## The Company
-
 Imaginex is a creative technology studio that produces immersive, multi-sensory experiences. Companies hire Imaginex for their most challenging projects and entrust their budgets in the team's wide expertise: from projector mapping to lighting, from software to fabrication.
 
-## Brand
+## Branding
 
 At the time, the company name was [stylized as `imagine(x)`](https://umddingman.files.wordpress.com/2012/11/imaginex.jpg). In an effort to make the brand more timeless, we quickly adjusted the capitalization and punctuation to `Imaginex`. We also settled on the tagline "Creative Reality" to suggest the idea that the Imaginex vision is not limited by the traditional constraints of our physical world.
 
-## Logo
+We wanted the new Imaginex logo to be edgy and futuristic without coming off too plastic. The typographic elements were inspired by the perentheses used in the previous logo, meant to reflect `function(x)` syntax. The visual styling was almost solely inspired by the 1982 film Tron and its 2010 remake.
 
-We wanted the new Imaginex logo to be edgy and futuristic without coming off too plastic. The typographic approach was inspired by the perentheses used in the previous logo, meant to reflect `function(x)` syntax. 
+![Tron](/assets/imaginex-tron.jpg)
+
+After several iterations, here is the final logotype.
 
 ![Imaginex logo](/assets/imaginex-logo-trans.png)
 
-I created a bumper animation that connected the full logo with the `[X]` icon and features the "Creative Reality" tagline.
+This `[X]` mark serves as an icon for social accounts.
+
+![Imaginex icon](/assets/imaginex-icon-vimeo.png)
+
+I created a bumper animation in After Effects that connected the full logo with the `[X]` icon and features the "Creative Reality" tagline.
 
 ![Imaginex bumper](/assets/imaginex-bumper-gif.gif)
 
-## Video
+## Media
 
-Imaginex had a big gig 
+Imaginex had a gig at Echostage for the Dreamscape 2013 rave. They built and installed LED dance clouds and fiber optic decor to add to the surreal scene. I filmed and edited this video.
 
 <div class="embed-container">
 	<iframe src="//player.vimeo.com/video/67373009?title=0&amp;byline=0&amp;portrait=0&amp;color=78ffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
+Since then, we've collaborated on more filming projects&mdash;including a [Redskins charity event](http://www.bgcgw.org/pierre-garcons-2nd-annual-all-white-charity-event/) and Kevin Plank's Preakness party&mdash;to be used in an upcoming demo reel.
+
 ## Website
+
+Finally, we created a website to top it all off. Here is a first iteration.
+
+![Imaginex original website](/assets/imaginex-web-1.png)
+
+Eric wanted his highly-visual portfolio to speak for itself on his site. We doubled down on this notion and designed a site that used every inch of the screen to show off the incredible experience Imaginex has created.
+
+![Imaginex website](/assets/imaginex-web-2.png)
+![Imaginex website devices](/assets/imaginex-web-2all.png)
+
+[Charlie Hulcher](http://hulchr.com/) coded up this design. The website stands proud at [imaginex.co](http://imaginex.co).

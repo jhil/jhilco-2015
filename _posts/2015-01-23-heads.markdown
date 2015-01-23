@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Heads"
+date:   2015-01-22
+link:   heads.cc
+excerpt: Mockups made friendlier
+color:  "#222222"
+---
+

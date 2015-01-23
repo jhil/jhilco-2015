@@ -15,7 +15,6 @@ My main contribution to the truck the mechanical design. I also picked up Arduin
 
 ![Anjoyd logo](/assets/anjoyd-logo-trans.png)
 
-
 Here is our final demo video, thrown together with just minutes to spare before the project submission deadline.
 
 <div class="embed-container">
