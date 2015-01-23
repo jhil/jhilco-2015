@@ -21,9 +21,10 @@ ul, ol, dl, figure,
 
 // MEDIA
 
-img, .video {
+img, .embed-container {
     max-width: 100%;
     vertical-align: middle;
+    margin:  $spacing-unit auto;
 }
 
 .embed-container {
@@ -31,8 +32,6 @@ img, .video {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    max-width: 100%;
-
     iframe, object, embed {
         position: absolute;
         top: 0;

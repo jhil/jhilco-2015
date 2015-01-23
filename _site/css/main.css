@@ -13,16 +13,16 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 1.5rem; }
 
-img, .video {
+img, .embed-container {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin: 3rem auto; }
 
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  overflow: hidden;
-  max-width: 100%; }
+  overflow: hidden; }
   .embed-container iframe, .embed-container object, .embed-container embed {
     position: absolute;
     top: 0;
@@ -105,11 +105,12 @@ pre,
 code {
   font-size: 15px;
   border: 1px solid #cccccc;
-  border-radius: 3px;
-  background-color: #eef; }
+  border-radius: .25rem;
+  background-color: #eeeeee;
+  font-family: "Inconsolata", "Courier New", monospace; }
 
 code {
-  padding: 1px 5px; }
+  padding: .25rem .375rem; }
 
 pre {
   padding: 8px 12px;
@@ -118,6 +119,9 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0; }
+
+a code {
+  color: #222222; }
 
 .site-header {
   min-height: 5rem;
@@ -187,7 +191,7 @@ a.post-link {
     text-decoration: none; }
 
 .post-header {
-  margin-bottom: 3rem; }
+  margin: 3rem 0; }
 
 .post-title {
   font-size: 4rem;
@@ -197,7 +201,7 @@ a.post-link {
 .post-content {
   margin-bottom: 3rem; }
   .post-content h2 {
-    font-size: 32px;
+    font-size: 3rem;
     margin-top: 3rem;
     text-align: center; }
 

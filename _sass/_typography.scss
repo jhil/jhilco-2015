@@ -63,12 +63,13 @@ pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: .25rem;
+    background-color: $grey-lighter;
+    font-family: $base-font-family;
 }
 
 code {
-    padding: 1px 5px;
+    padding: .25rem .375rem;
 }
 
 pre {
@@ -82,4 +83,6 @@ pre {
     }
 }
 
-
+a code {
+    color: $grey-dark;
+}

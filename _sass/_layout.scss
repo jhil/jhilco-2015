@@ -113,7 +113,7 @@ a.post-link {
 // POSTS
 
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin: $spacing-unit 0;
 }
 
 .post-title {
@@ -126,7 +126,7 @@ a.post-link {
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 3rem;
         margin-top: $spacing-unit;
         text-align: center;
     }
