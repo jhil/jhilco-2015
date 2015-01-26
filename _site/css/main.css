@@ -34,7 +34,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 15.75px; }
 
 ul, ol {
   margin-left: 3rem; }
@@ -72,8 +72,8 @@ li > ol {
 
 body {
   font-family: "Inconsolata", "Courier New", monospace;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.625;
   font-weight: 400;
   color: #555555;
   -webkit-text-size-adjust: 100%; }
@@ -82,11 +82,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600; }
 
-p {
-  font-size: 1.125rem; }
-
 a {
-  color: #222222;
+  color: #4d4d4d;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -121,7 +118,7 @@ pre {
     padding-left: 0; }
 
 a code {
-  color: #222222; }
+  color: #4d4d4d; }
 
 .site-header {
   min-height: 5rem;
@@ -139,7 +136,7 @@ a code {
     display: none; }
   .site-nav .page-link {
     color: #555555;
-    line-height: 1.5; }
+    line-height: 1.625; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
 
