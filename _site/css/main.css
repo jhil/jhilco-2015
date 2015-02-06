@@ -209,6 +209,9 @@ a.post-link {
     font-size: 3rem;
     margin-top: 3rem;
     text-align: center; }
+  .post-content ul li {
+    margin-bottom: .5em;
+    padding-left: .5em; }
 
 ::selection {
   background-color: #cccccc;

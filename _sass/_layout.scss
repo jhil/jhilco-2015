@@ -130,6 +130,13 @@ a.post-link {
         margin-top: $spacing-unit;
         text-align: center;
     }
+
+    ul {
+        li {
+            margin-bottom: .5em;
+            padding-left: .5em;
+        }
+    }
 }
 
 
