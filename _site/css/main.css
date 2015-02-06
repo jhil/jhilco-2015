@@ -13,6 +13,14 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 1.5rem; }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.wide {
+  width: 100%; }
+
 img, .embed-container {
   max-width: 100%;
   vertical-align: middle;

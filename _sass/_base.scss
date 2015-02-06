@@ -19,6 +19,19 @@ ul, ol, dl, figure,
 }
 
 
+// HELPER CLASSES
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.wide {
+    width: 100%;
+}
+
+
 // MEDIA
 
 img, .embed-container {
