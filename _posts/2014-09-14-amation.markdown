@@ -2,7 +2,7 @@
 layout: post
 title:  "Amation"
 date:   2014-09-14
-link:	davidfurlong.github.io/amation
+link:	amation.co
 excerpt: SVG Animation Editor
 color:  "#303030"
 ---

@@ -6,4 +6,4 @@ link:	feelwheel.org
 excerpt: Force feedback steering wheel
 color:	"#448ccb"
 ---
-Content. Someday.
+
