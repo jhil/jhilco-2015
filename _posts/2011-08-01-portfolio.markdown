@@ -22,7 +22,7 @@ After this, I embarked on learning Wordpress and PHP to develop custom sites. No
 ![JHil Media Design, v3](/assets/portfolio-jhil-3.png)
 ![JHil Media Design, v3 project page](/assets/portfolio-jhil-3-project.png)
 
-It's now 2013. I hit a [point in my freelance business](https://medium.com/i-m-h-o/build-your-own-dreams-yo-32102d680e61) where I wanted to focus on more personal projects.
+It's now 2013. I hit a point in my freelance business where I wanted to [focus on more personal projects](https://medium.com/i-m-h-o/build-your-own-dreams-yo-32102d680e61).
 
 I began using `jhil.co` as my primary portfolio. This is my first take at it. This also marks my first attempt at JavaScript, where hovering over an element changes the header text to a project description. This was the coolest thing ever! Check out [older.jhil.co](older.jhil.co).
 
@@ -53,7 +53,7 @@ What's next?
     <iframe width="1280" height="720" src="//www.youtube.com/embed/WM1RChZk1EU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Feel free to explore the sites mentioned here.
+Sites mentioned here:
 
 - [jhilmediadesign.com, 2011](http://older.jhilmediadesign.com)
 - [jhilmediadesign.com, 2012](http://old.jhilmediadesign.com)
@@ -62,9 +62,8 @@ Feel free to explore the sites mentioned here.
 - [jhil.co, summer 2014](http://old.jhil.co)
 - [jhil.co, late 2014 (current)](http://jhil.co)
 
-Some of the code for these sites are on [my Github profile](http://github.com/jhil). Feel free to poke around and use any code you like!
+The source code for some of these sites are on my [Github profile](http://github.com/jhil). Feel free to poke around and use any code you like!
 
 - [jhilco-2013](https://github.com/jhil/jhilco-2013)
 - [jhilco-2014](https://github.com/jhil/jhilco-2014)
 - [jhil.github.io](https://github.com/jhil/jhil.github.io)
-
