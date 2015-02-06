@@ -6,8 +6,8 @@
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Feb 2015 12:22:39 -0500</pubDate>
-    <lastBuildDate>Fri, 06 Feb 2015 12:22:39 -0500</lastBuildDate>
+    <pubDate>Fri, 06 Feb 2015 13:01:30 -0500</pubDate>
+    <lastBuildDate>Fri, 06 Feb 2015 13:01:30 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -56,7 +56,23 @@
     
       <item>
         <title>ADI</title>
-        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
+        <description>&lt;p&gt;ADI (Application Developer Institute) at Columbia University is an organization that teaches students how to code through various community events. I roomed with &lt;a href=&quot;http://danrs.ch&quot;&gt;Dan Schlosser&lt;/a&gt;, one of the ADI leaders, for my 2014 summer in New York, where we both worked at &lt;a href=&quot;http://jhil.co/venmo&quot;&gt;worked at Venmo&lt;/a&gt;. Together, we built the &lt;a href=&quot;http://adicu.com&quot;&gt;adicu.com&lt;/a&gt; website over the course of a couple weeks. I led design, while Dan led the front-end development.&lt;/p&gt;
+
+&lt;p&gt;The guidelines for this design were maintaining a friendly and charming tone while inspiring a drive for technology education. In the spec that we prepared, Dan wrote that “ADI brings together Computer Science students.” This was the core principle behind the organization, and I wanted the design to reflect that, too.&lt;/p&gt;
+
+&lt;p&gt;On top of that, the site was complex in terms of the types of content it had to serve. There are events, blog posts, subscription fields, general informative content, resources and projects, learning guides, and so on. The site is powered by &lt;a href=&quot;http://danrs.ch/blog/post-2014-09-26#read&quot;&gt;Eventum&lt;/a&gt;, a fantastic publishing platform created from scratch by Dan. My design had to surface all this content to the front-page while placing emphasis on events (which is ADI’s main hook for new members). At the same time, each module of the site must be robust.&lt;/p&gt;
+
+&lt;p&gt;After a few iterations, we settled on this design. It was inspired by &lt;a href=&quot;http://creativemornings.com/talks&quot;&gt;Creative Mornings&lt;/a&gt; and &lt;a href=&quot;https://generalassemb.ly&quot;&gt;General Assembly&lt;/a&gt; among other sites which shared similar values with ADI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/adi-web.png&quot; alt=&quot;ADI website&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I created a mockup for the home page, which establishes the design language and major modules. Then Dan and I paired to code a few of the other pages based on these template elements. I left Dan and his team with this new ADI design language to continue building out future pages. The visual style can also be used in non-web ADI assets, such as posters or apparel.&lt;/p&gt;
+
+&lt;p&gt;We also worked on a few logo concepts, which ended up going unused by the organization. The goal here was to clearly show a technology association while still emitting welcoming vibes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/adi-logo.gif&quot; alt=&quot;ADI logo concept&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other logo ideas included using a &lt;code&gt;&amp;gt;_&lt;/code&gt; motif with the typography, but visually, it wasn’t appealing. I still love how this concept turned out and might use that typography style in a future project.&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://jhil.co/adicu</link>
