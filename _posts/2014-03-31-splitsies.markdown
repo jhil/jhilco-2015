@@ -6,4 +6,4 @@ link:	splitlicio.us
 excerpt: Speedy bill splitting app
 color:	"#2ecc71"
 ---
-Content. Someday.
+
