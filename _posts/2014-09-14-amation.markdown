@@ -5,5 +5,6 @@ date:   2014-09-14
 link:	amation.co
 excerpt: SVG Animation Editor
 color:  "#303030"
+direct: 1
 ---
 Content. Someday.

@@ -5,5 +5,6 @@ date:   2014-03-12
 link:	gethotdrop.com
 excerpt: Location-based messaging app
 color:	"#ff5a5a"
+direct: 1
 ---
 Content. Someday.
