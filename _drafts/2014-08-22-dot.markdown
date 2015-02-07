@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Dot"
+date:   2014-08-22
+link:	getdot.io
+excerpt: One-gesture payments app for iOS
+color:  "#2ad781"
+direct: 1
+---
+
+Content. Someday.

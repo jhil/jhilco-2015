@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Grandy"
+date:   2014-11-17
+link:	grandy.io
+excerpt: Freelance design marketplace
+color:  "#27C684"
+direct: 1
+---
+
+Content. Someday.
