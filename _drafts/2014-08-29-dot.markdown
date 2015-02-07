@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dot"
-date:   2014-08-22
+date:   2014-08-29
 link:	getdot.io
 excerpt: One-gesture payments app for iOS
 color:  "#2ad781"

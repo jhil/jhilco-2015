@@ -6,8 +6,8 @@
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Feb 2015 01:11:38 -0500</pubDate>
-    <lastBuildDate>Sat, 07 Feb 2015 01:11:38 -0500</lastBuildDate>
+    <pubDate>Sat, 07 Feb 2015 13:23:19 -0500</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2015 13:23:19 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -33,6 +33,17 @@
       </item>
     
       <item>
+        <title>Grandy</title>
+        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://jhil.co/2014-11-17-grandy</link>
+        <guid isPermaLink="true">http://jhil.co/2014-11-17-grandy</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Startup Shell</title>
         <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
 </description>
@@ -50,6 +61,17 @@
         <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
         <link>http://jhil.co/amation</link>
         <guid isPermaLink="true">http://jhil.co/amation</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Dot</title>
+        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://jhil.co/2014-08-29-dot</link>
+        <guid isPermaLink="true">http://jhil.co/2014-08-29-dot</guid>
         
         
       </item>
@@ -110,28 +132,6 @@
         <pubDate>Mon, 31 Mar 2014 00:00:00 -0400</pubDate>
         <link>http://jhil.co/splitsies</link>
         <guid isPermaLink="true">http://jhil.co/splitsies</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hotdrop</title>
-        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Mar 2014 00:00:00 -0400</pubDate>
-        <link>http://jhil.co/hotdrop</link>
-        <guid isPermaLink="true">http://jhil.co/hotdrop</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Bop It!</title>
-        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Feb 2014 00:00:00 -0500</pubDate>
-        <link>http://jhil.co/bopit</link>
-        <guid isPermaLink="true">http://jhil.co/bopit</guid>
         
         
       </item>
