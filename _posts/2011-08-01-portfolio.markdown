@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Portfolios"
+title:  "Portfolio"
 date:   2011-08-01
 link:	old.jhil.co
 excerpt: previous versions of jhil.co
