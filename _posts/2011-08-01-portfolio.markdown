@@ -26,7 +26,7 @@ It's now 2013. I hit a point in my freelance business where I wanted to [focus o
 
 I began using `jhil.co` as my primary portfolio. This is my first take at it. This also marks my first attempt at JavaScript, where hovering over an element changes the header text to a project description. This was the coolest thing ever! Check out [older.jhil.co](older.jhil.co).
 
-![jhil portfolio, v1](/assets/portfolio-jhil-3-project.png)
+![jhil portfolio, v1](/assets/portfolio-jhil-4.png)
 
 I wanted my portfolio to really say something. At that point, it only said that my favorite color is yellow. After experimenting a tad with personal branding, [I settled on something I liked](https://dribbble.com/shots/1444745-JHIL).
 
