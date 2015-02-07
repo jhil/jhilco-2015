@@ -6,8 +6,8 @@
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Feb 2015 13:30:42 -0500</pubDate>
-    <lastBuildDate>Sat, 07 Feb 2015 13:30:42 -0500</lastBuildDate>
+    <pubDate>Sat, 07 Feb 2015 14:01:52 -0500</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2015 14:01:52 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -77,7 +77,7 @@
       </item>
     
       <item>
-        <title>ADI</title>
+        <title>ADICU</title>
         <description>&lt;p&gt;ADI (Application Developer Institute) at Columbia University is an organization that teaches students how to code through various community events. I roomed with &lt;a href=&quot;http://danrs.ch&quot;&gt;Dan Schlosser&lt;/a&gt;, one of the ADI leaders, for my 2014 summer in New York, where we both worked at &lt;a href=&quot;http://jhil.co/venmo&quot;&gt;worked at Venmo&lt;/a&gt;. Together, we built the &lt;a href=&quot;http://adicu.com&quot;&gt;adicu.com&lt;/a&gt; website over the course of a couple weeks. I led design, while Dan led the front-end development.&lt;/p&gt;
 
 &lt;p&gt;The guidelines for this design were maintaining a friendly and charming tone while inspiring a drive for technology education. In the spec that we prepared, Dan wrote that “ADI brings together Computer Science students.” This was the core principle behind the organization, and I wanted the design to reflect that, too.&lt;/p&gt;

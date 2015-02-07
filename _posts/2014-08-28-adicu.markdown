@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ADI"
+title:  "ADICU"
 date:   2014-08-28
 link:	adicu.com
 excerpt: Design for Columbia University group
