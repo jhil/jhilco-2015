@@ -3,7 +3,7 @@ layout: post
 title:  "ADICU"
 date:   2014-08-28
 link:	adicu.com
-excerpt: Design for Columbia University group
+excerpt: Design for Columbia University organization
 color:	"#59ACFF"
 ---
 
@@ -15,12 +15,12 @@ On top of that, the site was complex in terms of the types of content it had to 
 
 After a few iterations, we settled on this design. It was inspired by [Creative Mornings](http://creativemornings.com/talks) and [General Assembly](https://generalassemb.ly) among other sites which shared similar values with ADI.
 
-![ADI website](/assets/adi-web.png)
+![ADI website](/assets/{{ page.title | slugify }}/adi-web.png)
 
 I created a mockup for the home page, which establishes the design language and major modules. Then Dan and I paired to code a few of the other pages based on these template elements. I left Dan and his team with this new ADI design language to continue building out future pages. The visual style can also be used in non-web ADI assets, such as posters or apparel.
 
 We also worked on a few logo concepts, which ended up going unused by the organization. The goal here was to clearly show a technology association while still emitting welcoming vibes.
 
-![ADI logo concept](/assets/adi-logo.gif)
+![ADI logo concept](/assets/{{ page.title | slugify }}/adi-logo.gif)
 
 Other logo ideas included using a `>_` motif with the typography, but visually, it wasn't appealing. I still love how this concept turned out and might use that typography style in a future project.

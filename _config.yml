@@ -18,3 +18,6 @@ behance_username:	jhil
 
 # Build settings
 markdown: kramdown
+
+# Alias
+pipe:	{{ page.title | prepend: "/assets/"}}

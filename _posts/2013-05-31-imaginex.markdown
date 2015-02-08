@@ -17,19 +17,19 @@ At the time, the company name was [stylized as `imagine(x)`](https://umddingman.
 
 We wanted the new Imaginex logo to be edgy and futuristic without coming off too plastic. The typographic elements were inspired by the perentheses used in the previous logo, meant to reflect `function(x)` syntax. The visual styling was almost solely inspired by the 1982 film Tron and its 2010 remake.
 
-![Tron](/assets/imaginex-tron.jpg)
+![Tron](/assets/{{ page.title | slugify }}/imaginex-tron.jpg)
 
 After several iterations, here is the final logotype.
 
-![Imaginex logo](/assets/imaginex-logo-trans.png)
+![Imaginex logo](/assets/{{ page.title | slugify }}/imaginex-logo-trans.png)
 
 This `[X]` mark serves as an icon for social accounts.
 
-![Imaginex icon](/assets/imaginex-icon-vimeo.png){: .center }
+![Imaginex icon](/assets/{{ page.title | slugify }}/imaginex-icon-vimeo.png){: .center }
 
 I created a bumper animation in After Effects that connected the full logo with the `[X]` icon and features the "Creative Reality" tagline.
 
-![Imaginex bumper](/assets/imaginex-bumper-gif.gif)
+![Imaginex bumper](/assets/{{ page.title | slugify }}/imaginex-bumper-gif.gif)
 
 ## Media
 
@@ -45,11 +45,11 @@ Since then, we've collaborated on more filming projects&mdash;including a [Redsk
 
 Finally, we created a website to top it all off. Here is a first iteration.
 
-![Imaginex original website](/assets/imaginex-web-1.png)
+![Imaginex original website](/assets/{{ page.title | slugify }}/imaginex-web-1.png)
 
 Eric wanted his highly-visual portfolio to speak for itself on his site. We doubled down on this notion and designed a site that used every inch of the screen to show off the incredible experience Imaginex has created.
 
-![Imaginex website](/assets/imaginex-web-2.png)
-![Imaginex website devices](/assets/imaginex-web-2all.png)
+![Imaginex website](/assets/{{ page.title | slugify }}/imaginex-web-2.png)
+![Imaginex website devices](/assets/{{ page.title | slugify }}/imaginex-web-2all.png)
 
 [Charlie Hulcher](http://hulchr.com/) coded up this design. The website stands proud at [imaginex.co](http://imaginex.co).

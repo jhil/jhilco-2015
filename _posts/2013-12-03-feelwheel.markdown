@@ -13,7 +13,7 @@ I teamed up with [Zach Lawrence](#) and [Peter Weng](#) to build Feelwheel, a st
 
 Our key observation was that even when drivers were distracted, their hands usually still touching the steering wheel.
 
-![Hands on the wheel](/assets/feelwheel-hands.png)
+![Hands on the wheel](/assets/{{ page.title | slugify }}/feelwheel-hands.png)
 
 We want to take advantage of this behavior to alert drivers with targeted vibrations through the steering wheel. This sensory approach renders reflexive actions from the driver for near immediate response time. Applications of this technology include...
 

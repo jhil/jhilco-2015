@@ -15,20 +15,20 @@ For the complete Facetoaster story, I recommend reading my Medium post: ["FACETO
 
 We quickly went from mockup...
 
-![Facetoaster mockup](/assets/facetoaster-web.png)
+![Facetoaster mockup](/assets/{{ page.title | slugify }}/facetoaster-web.png)
 
 ... to prototype.
 
-![Facetoaster screenshot](/assets/facetoaster-screenshot.png)
+![Facetoaster screenshot](/assets/{{ page.title | slugify }}/facetoaster-screenshot.png)
 
 I also had a blast making the Facetoaster logo and fashion line.
 
-![Facetoaster logo](/assets/facetoaster-logo-big.png)
+![Facetoaster logo](/assets/{{ page.title | slugify }}/facetoaster-logo-big.png)
 
-![Facetoaster Teespring campaign](/assets/facetoaster-teespring.png)
-![Hurwitz](/assets/facetoaster-shirt-adam.jpg){: .wide }
-![Eric](/assets/facetoaster-shirt-eric.jpg){: .wide }
-![Tony](/assets/facetoaster-shirt-tony.jpg)
-![DG](/assets/facetoaster-shirt-dan.jpg)
+![Facetoaster Teespring campaign](/assets/{{ page.title | slugify }}/facetoaster-teespring.png)
+![Hurwitz](/assets/{{ page.title | slugify }}/facetoaster-shirt-adam.jpg){: .wide }
+![Eric](/assets/{{ page.title | slugify }}/facetoaster-shirt-eric.jpg){: .wide }
+![Tony](/assets/{{ page.title | slugify }}/facetoaster-shirt-tony.jpg)
+![DG](/assets/{{ page.title | slugify }}/facetoaster-shirt-dan.jpg)
 
 UPDATE: _Now that I know Ruby on Rails, I'd like to convert Facetoaster from its current static proof-of-concept page into a functioning web app. In time..._
