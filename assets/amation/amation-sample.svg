@@ -1,0 +1,819 @@
+<svg id="canvas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="Init(evt)" onmousedown="Grab(evt)" onmousemove="Drag(evt)" onmouseup="Drop(evt)" onclick="Select(evt)" style="width: 360px; height: 640px;">
+					<g id="1410890351866"><symbol id="ic_x5F_backspace_x0D_" viewBox="0 -24 24 24">
+	<polygon fill="none" points="0,0 0,-24 24,-24 24,0  "/>
+	<g>
+		<path d="M22-3L7.1-3C6.4-3,5.8-3.3,5.4-3.9L0-12l5.4-8.1c0.4-0.5,1-0.9,1.7-0.9L22-21c1.1,0,2,0.9,2,2v14C24-3.9,23.1-3,22-3z     M19-15.6L17.6-17L14-13.4L10.4-17L9-15.6l3.6,3.6L9-8.4L10.4-7l3.6-3.6L17.6-7L19-8.4L15.4-12L19-15.6z"/>
+	</g>
+</symbol><symbol id="ic_x5F_keyboardHide" viewBox="0 -24 24 24">
+	<polygon fill="none" points="24,-24 0,-24 0,0 24,0  "/>
+	<path d="M20-3H4C2.9-3,2-3.9,2-5l0-10c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v10C22-3.9,21.1-3,20-3z M11-6h2v-2h-2V-6z M11-9h2v-2h-2   V-9z M8-6h2v-2H8V-6z M8-9h2v-2H8V-9z M7-11H5v2h2V-11z M7-8H5v2h2V-8z M16-15H8v2h8V-15z M16-11h-2v2h2V-11z M16-8h-2v2h2V-8z    M19-11h-2v2h2V-11z M19-8h-2v2h2V-8z M12-23l4,4H8L12-23z"/>
+</symbol><symbol id="ic_x5F_mic" viewBox="0 -24 24 24">
+	<g>
+		<path d="M12-15c1.7,0,3,1.3,3,3l0,6c0,1.7-1.3,3-3,3c-1.7,0-3-1.3-3-3v-6C9-13.7,10.3-15,12-15z M17.3-12c0-3-2.5-5.1-5.3-5.1    S6.7-15,6.7-12H5c0-3.4,2.7-6.2,6-6.7V-22h2v3.3c3.3,0.5,6,3.3,6,6.7H17.3z"/>
+	</g>
+	<polygon fill="none" points="24,-24 0,-24 0,0 24,0  "/>
+</symbol><symbol id="ui_x5F_bottomToolbar_x5F_focus_x5F_light_3" viewBox="0 0 440 184">
+	<polygon fill="none" points="440,0 0,0 0,184 440,184  "/>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="400,40 40,40 40,184 400,184    "/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_" overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<g>
+				
+					<image overflow="visible" opacity="0.24" width="375" height="120" xlink:href="1CFA708D15D9874C.png" transform="matrix(1 0 0 -1 32.5 146.5)">
+				</image>
+				<polygon fill="#FAFAFA" points="40,40 400,40 400,144 40,144     "/>
+			</g>
+			<g>
+				
+					<image overflow="visible" opacity="0.18" width="414" height="158" xlink:href="1CFA708D15D9874D.png" transform="matrix(1 0 0 -1 13 162)">
+				</image>
+				<polygon fill="#EEEEEE" points="40,40 400,40 400,144 40,144     "/>
+			</g>
+			<g opacity="4.000000e-02">
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="220" y1="40" x2="220" y2="144">
+					<stop offset="0" style="stop-color:#000000"/>
+					<stop offset="4.000000e-02" style="stop-color:#000000;stop-opacity:0"/>
+				</linearGradient>
+				<path fill="url(#SVGID_3_)" d="M399.5,143.5v-103h-359v103H399.5 M400,144H40V40h360V144L400,144z"/>
+			</g>
+			<g opacity="0.8">
+				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="220" y1="40" x2="220" y2="144">
+					<stop offset="0.8" style="stop-color:#FFFFFF;stop-opacity:0"/>
+					<stop offset="0.9725" style="stop-color:#FFFFFF;stop-opacity:0.8625"/>
+					<stop offset="1" style="stop-color:#FFFFFF"/>
+				</linearGradient>
+				<path fill="url(#SVGID_4_)" d="M399.5,143.5v-103h-359v103H399.5 M400,144H40V40h360V144L400,144z"/>
+			</g>
+		</g>
+	</g>
+</symbol><symbol id="ui_x5F_divider_x5F_dark_1_">
+</symbol><symbol id="ui_x5F_divider_x5F_dark_4" viewBox="0 0 320 1">
+	<g>
+		<defs>
+			<polygon id="SVGID_5_" points="320,0 0,0 0,1 320,1    "/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_" overflow="visible"/>
+		</clipPath>
+		<polygon opacity="0.16" clip-path="url(#SVGID_6_)" points="320,0 0,0 0,0.5 320,0.5   "/>
+	</g>
+</symbol><g id="GUIDES">
+</g><g id="CONTENT">
+	<g id="feed">
+	</g>
+	<rect fill="#5AE8FF" width="360" height="640"/>
+	<path fill="#FFFFFF" stroke="#999999" stroke-miterlimit="10" d="M276,460H84c-2.2,0-4-1.8-4-4V164c0-2.2,1.8-4,4-4h192   c2.2,0,4,1.8,4,4v292C280,458.2,278.2,460,276,460z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 106.6443 383.9531)" fill="#212121" font-family="'Roboto-Regular'" font-size="24">Mister Grizzly</text>
+	</g>
+	<g>
+		<circle fill="#FFFFFF" stroke="#999999" stroke-miterlimit="10" cx="220" cy="530" r="32"/>
+		<circle fill="#FFFFFF" stroke="#999999" stroke-miterlimit="10" cx="140" cy="530" r="32"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" stroke="#999999" stroke-miterlimit="10" d="M285.9,450h-212c-2.2,0-4-1.8-4-4V160.7c0-2.2,1.8-4,4-4h212    c2.2,0,4,1.8,4,4V446C289.9,448.2,288.1,450,285.9,450z"/>
+		<g>
+			<text transform="matrix(1 0 0 1 113.0448 398.6241)" fill="#212121" font-family="'Roboto-Regular'" font-size="25.6667">Grizzlo Hair</text>
+		</g>
+		<path fill="#995837" d="M253.3,225.4c0-17.7-14.4-32.1-32.1-32.1c-11.8,0-22.6,6.5-28.1,16.7c-8.9-1.5-17.4-1.5-26.3,0    c-5.6-10.2-16.3-16.7-28.1-16.7c-17.7,0-32.1,14.4-32.1,32.1c0,7.8,2.9,15.3,8,21.1c-4.4,8.5-6.6,17.6-6.6,27.1    c0,35.7,32.3,64.7,72,64.7s72-29,72-64.7c0-9.4-2.2-18.5-6.6-27.1C250.4,240.7,253.3,233.2,253.3,225.4z M236.9,247.9    c4.7,8.1,7,16.7,7,25.8c0,31.3-28.7,56.7-63.9,56.7S116,304.9,116,273.6c0-9,2.4-17.7,7-25.8c0.9-1.6,0.6-3.7-0.7-4.9    c-4.9-4.6-7.7-10.8-7.7-17.5c0-13.3,10.8-24,24-24c9.7,0,18.4,5.8,22.2,14.7c0.7,1.8,2.6,2.8,4.5,2.4c9.9-2.1,19.3-2.1,29.2,0    c1.9,0.4,3.8-0.6,4.5-2.4c3.8-8.9,12.5-14.7,22.2-14.7c13.3,0,24,10.8,24,24c0,6.7-2.7,12.9-7.6,17.5    C236.2,244.2,235.9,246.3,236.9,247.9z M168.9,253.3L150,242.6c-1-0.5-1.3-1.8-0.7-2.7c0.5-1,1.8-1.3,2.7-0.7l18.9,10.8    c1,0.5,1.3,1.8,0.7,2.7c-0.4,0.7-1,1-1.7,1C169.6,253.6,169.3,253.5,168.9,253.3z M210.6,239.8c0.5,1,0.2,2.2-0.8,2.7l-18.9,10.8    c-0.3,0.2-0.7,0.3-1,0.3c-0.7,0-1.4-0.4-1.7-1c-0.6-1-0.2-2.2,0.8-2.7l18.9-10.8C208.8,238.5,210,238.9,210.6,239.8z M190.8,276.7    c-1.5-3.9-5.9-6.6-10.9-6.6c-5,0-9.4,2.7-10.9,6.6c-6.4,2.2-11.7,6.3-14.6,11.7c-0.5,1-0.1,2.2,0.8,2.7c0.3,0.2,0.6,0.2,0.9,0.2    c0.7,0,1.4-0.4,1.8-1.1c2.3-4.2,6.5-7.5,11.5-9.4c1.6,2.8,4.7,4.8,8.4,5.4v12.4c-4.1,0.7-7.7,3.4-9.4,7.4c-0.4,1,0,2.2,1.1,2.6    c0.3,0.1,0.5,0.2,0.8,0.2c0.8,0,1.5-0.5,1.8-1.2c1.3-3.1,4.3-5.1,7.7-5.1c3.3,0,6.3,2,7.7,5c0.4,1,1.6,1.5,2.6,1    c1-0.4,1.5-1.6,1-2.6c-1.7-3.9-5.2-6.6-9.3-7.3v-12.4c3.7-0.5,6.8-2.6,8.4-5.4c5,1.9,9.2,5.1,11.5,9.3c0.5,1,1.7,1.3,2.7,0.8    c1-0.5,1.3-1.7,0.8-2.7C202.4,282.9,197.2,278.9,190.8,276.7z M179.9,282.4c-3.4,0-6.4-1.7-7.2-4.1c0.9-2.4,3.9-4.1,7.2-4.1    c3.4,0,6.4,1.7,7.2,4.1C186.3,280.6,183.3,282.4,179.9,282.4z M160.5,253.8c2.2,0,4,1.8,4,4c0,2.2-1.8,4-4,4s-4-1.8-4-4    C156.5,255.6,158.3,253.8,160.5,253.8z M199.4,261.8c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4c2.2,0,4,1.8,4,4    C203.4,260,201.6,261.8,199.4,261.8z"/>
+	</g>
+</g><g id="NAV">
+	<g id="nav-bg">
+		<g id="ic_x5F_menu_x0D__2_copy">
+		</g>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_5_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 4.856308e-04 136.5)" overflow="visible"/>
+		<g id="ui_x5F_divider_x5F_dark_copy">
+		</g>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_4_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 343)" overflow="visible"/>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_3_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 431)" overflow="visible"/>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_2_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 519)" overflow="visible"/>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_1_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 607)" overflow="visible"/>
+		<rect fill="#FF5A5A" width="360" height="80"/>
+		<g>
+			<g>
+				<rect x="72" y="44" fill="none" width="156" height="24"/>
+				<text transform="matrix(1 0 0 1 71.7446 59)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="20">Hotdrop</text>
+			</g>
+		</g>
+		<g id="ic_x5F_moreVert_x5F_light_copy_2">
+			<g>
+				<rect x="320" y="40" fill="none" width="24" height="24"/>
+				<path fill="#FFFFFF" d="M332,48c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S330.9,48,332,48z M332,50c-1.1,0-2,0.9-2,2s0.9,2,2,2      s2-0.9,2-2S333.1,50,332,50z M332,56c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S333.1,56,332,56z"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<rect x="16" y="40" fill="none" width="24" height="24"/>
+			</g>
+			<path fill="#FFFFFF" d="M28,48c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4s4-1.8,4-4C32,49.8,30.2,48,28,48z M36.9,51     c-0.5-4-3.9-7.5-7.9-7.9V41h-2v2.1c-4,0.5-7.5,3.9-7.9,7.9H17v2h2.1c0.5,4,3.9,7.5,7.9,7.9V63h2v-2.1c4-0.5,7.5-3.9,7.9-7.9H39     v-2H36.9z M28,59c-3.9,0-7-3.1-7-7c0-3.9,3.1-7,7-7s7,3.1,7,7C35,55.9,31.9,59,28,59z"/>
+		</g>
+	</g>
+	<g id="nav-main">
+		<g id="ic_x5F_menu_x0D__2">
+		</g>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_265_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 4.856308e-04 136.5)" overflow="visible"/>
+		<g id="ui_x5F_divider_x5F_dark">
+		</g>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_263_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 343)" overflow="visible"/>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_262_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 431)" overflow="visible"/>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_194_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 519)" overflow="visible"/>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_1_" width="-32766" height="-32766" id="XMLID_260_" x="16383" y="16383" transform="matrix(0.8 0 0 -1 72.0003 607)" overflow="visible"/>
+		<rect fill="#FF5A5A" width="360" height="80"/>
+		<g>
+			<g>
+				<rect x="72" y="44" fill="none" width="156" height="24"/>
+				<text transform="matrix(1 0 0 1 71.8188 59)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="20">Salmon Shorts</text>
+			</g>
+		</g>
+		<g id="ic_x5F_moreVert_x5F_light">
+			<g>
+				<rect x="320" y="40" fill="none" width="24" height="24"/>
+				<path fill="#FFFFFF" d="M332,48c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S330.9,48,332,48z M332,50c-1.1,0-2,0.9-2,2s0.9,2,2,2      s2-0.9,2-2S333.1,50,332,50z M332,56c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S333.1,56,332,56z"/>
+			</g>
+		</g>
+		<line fill="none" stroke="#999999" stroke-miterlimit="10" x1="0" y1="80.5" x2="360" y2="80.5"/>
+	</g>
+</g><g id="keyboard" display="none">
+	<g display="inline">
+		
+			<use xlink:href="#ui_x5F_bottomToolbar_x5F_focus_x5F_light_3" width="440" height="184" id="XMLID_450_" transform="matrix(1 0 0 -1.663 -40 632.9994)" overflow="visible"/>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M265,583.1c0,0.5-0.5,0.9-1,0.9H96c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H264c0.6,0,1,0.4,1,0.9      V583.1z"/>
+			</g>
+			<path opacity="0.1" d="M255,572c0,1.1-0.9,2-2,2H107c-1.1,0-2-0.9-2-2v-20c0-1.1,0.9-2,2-2h146c1.1,0,2,0.9,2,2V572z"/>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M55,479.1c0,0.5-0.4,0.9-1,0.9H26c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H54c0.5,0,1,0.4,1,0.9      V479.1z"/>
+			</g>
+			<rect x="25" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 34.0166 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">a</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M90,479.1c0,0.5-0.4,0.9-1,0.9H61c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H89c0.5,0,1,0.4,1,0.9      V479.1z"/>
+			</g>
+			<rect x="60" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 69.3281 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">s</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M125,479.1c0,0.5-0.4,0.9-1,0.9H96c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H124c0.5,0,1,0.4,1,0.9      V479.1z"/>
+			</g>
+			<rect x="95" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 103.8555 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">d</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M160,479.1c0,0.5-0.4,0.9-1,0.9H131c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H159      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="130" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 141.2178 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">f</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M195,479.1c0,0.5-0.4,0.9-1,0.9H166c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H194      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="165" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 173.8291 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">g</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M230,479.1c0,0.5-0.4,0.9-1,0.9H201c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H229      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="200" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 208.999 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">h</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M265,479.1c0,0.5-0.4,0.9-1,0.9H236c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H264      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="235" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 247.374 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">j</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M300,479.1c0,0.5-0.4,0.9-1,0.9H271c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H299      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="270" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 279.4775 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">k</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M335,479.1c0,0.5-0.4,0.9-1,0.9H306c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H334      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="305" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 317.3311 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">l</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M90,531.1c0,0.5-0.4,0.9-1,0.9H61c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H89c0.5,0,1,0.4,1,0.9      V531.1z"/>
+			</g>
+			<rect x="60" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 69.5811 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">z</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M125,531.1c0,0.5-0.4,0.9-1,0.9H96c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H124c0.5,0,1,0.4,1,0.9      V531.1z"/>
+			</g>
+			<rect x="95" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 104.5811 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">x</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M160,531.1c0,0.5-0.4,0.9-1,0.9H131c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H159      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="130" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 139.2764 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">c</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M195,531.1c0,0.5-0.4,0.9-1,0.9H166c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H194      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="165" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 174.7031 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">v</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M230,531.1c0,0.5-0.4,0.9-1,0.9H201c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H229      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="200" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 208.8652 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">b</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M265,531.1c0,0.5-0.4,0.9-1,0.9H236c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H264      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="235" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 243.9668 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">n</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M300,531.1c0,0.5-0.4,0.9-1,0.9H271c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H299      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="270" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 275.416 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">m</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M38,427.1c0,0.5-0.4,0.9-1,0.9H9c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H37c0.5,0,1,0.4,1,0.9      V427.1z"/>
+			</g>
+			<rect x="8" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1.0215 0 0 1 16.6133 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">q</text>
+			<text transform="matrix(1 0 0 1 30.4736 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">1</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M73,427.1c0,0.5-0.4,0.9-1,0.9H44c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H72c0.5,0,1,0.4,1,0.9      V427.1z"/>
+			</g>
+			<rect x="43" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 49.7344 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">w</text>
+			<text transform="matrix(1 0 0 1 64.1162 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">2</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M108,427.1c0,0.5-0.4,0.9-1,0.9H79c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H107c0.5,0,1,0.4,1,0.9      V427.1z"/>
+			</g>
+			<rect x="78" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 87.1729 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">e</text>
+			<text transform="matrix(1 0 0 1 99.3105 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">3</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M143,427.1c0,0.5-0.4,0.9-1,0.9H114c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H142      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="113" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 124.3135 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">r</text>
+			<text transform="matrix(1 0 0 1 134.502 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">4</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M178,427.1c0,0.5-0.4,0.9-1,0.9H149c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H177      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="148" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 159.4072 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">t</text>
+			<text transform="matrix(1 0 0 1 169.541 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">5</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M213,427.1c0,0.5-0.4,0.9-1,0.9H184c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H212      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="183" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 192.7959 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">y</text>
+			<text transform="matrix(1 0 0 1 204.7393 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">6</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M248,427.1c0,0.5-0.4,0.9-1,0.9H219c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H247      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="218" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 226.9365 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">u</text>
+			<text transform="matrix(1 0 0 1 238.9268 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">7</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M283,427.1c0,0.5-0.4,0.9-1,0.9H254c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H282      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="253" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 265.3311 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">i</text>
+			<text transform="matrix(1 0 0 1 274.1211 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">8</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M318,427.1c0,0.5-0.4,0.9-1,0.9H289c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H317      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="288" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 296.7266 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">o</text>
+			<text transform="matrix(1 0 0 1 309.3135 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">9</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M352,427.1c0,0.5-0.4,0.9-1,0.9H324c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H351      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="323" y="398" fill="none" width="29" height="28"/>
+			<text transform="matrix(1 0 0 1 331.3291 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">p</text>
+			<text transform="matrix(1 0 0 1 343.9463 394.9585)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">0</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M55,531.1c0,0.5-0.5,0.9-1,0.9H9c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H54c0.6,0,1,0.4,1,0.9      V531.1z"/>
+			</g>
+			<g>
+				<polygon opacity="0.25" points="35,510 40,510 31,501 22,510 27,510 27,518 35,518     "/>
+			</g>
+		</g>
+		<rect x="21" y="498" fill="none" width="24" height="24"/>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M55,583.1c0,0.5-0.5,0.9-1,0.9H9c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H54c0.6,0,1,0.4,1,0.9      V583.1z"/>
+			</g>
+			<rect x="8" y="558" fill="none" width="47" height="28"/>
+			<text transform="matrix(1 0 0 1 17.96 566.9995)"><tspan x="0" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">?</tspan><tspan x="6.1" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">1</tspan><tspan x="12.6" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">2</tspan><tspan x="20.3" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">3</tspan></text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M300,583.1c0,0.5-0.4,0.9-1,0.9H271c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H299      c0.5,0,1,0.4,1,0.9V583.1z"/>
+			</g>
+			<rect x="270" y="552" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 282.1221 568.4985)" fill="#999999" font-family="'Roboto-Regular'" font-size="22">.</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M352,531.1c0,0.5-0.5,0.9-1,0.9H306c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H351      c0.6,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			
+				<use xlink:href="#ic_x5F_backspace_x0D_" width="24" height="24" id="XMLID_449_" y="-24" transform="matrix(1 0 0 -1 316 497.9995)" overflow="visible" opacity="0.25"/>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M352,583.1c0,0.5-0.5,0.9-1,0.9H306c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H351      c0.6,0,1,0.4,1,0.9V583.1z"/>
+			</g>
+			
+				<use xlink:href="#ic_x5F_keyboardHide" width="24" height="24" y="-24" transform="matrix(1 0 0 -1 317 549.9995)" overflow="visible" opacity="0.5"/>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M90,583.1c0,0.5-0.4,0.9-1,0.9H61c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H89c0.5,0,1,0.4,1,0.9      V583.1z"/>
+			</g>
+			
+				<use xlink:href="#ic_x5F_mic" width="24" height="24" id="XMLID_448_" x="0" y="-24" transform="matrix(1 0 0 -1 63 549.9995)" overflow="visible" opacity="0.5"/>
+		</g>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_4" width="320" height="1" id="XMLID_447_" x="0" y="0" transform="matrix(1.125 0 0 -1 2.144809e-05 367.9997)" overflow="visible"/>
+	</g>
+</g><g id="deck">
+	<g>
+		<rect y="592" width="360" height="48"/>
+		<g>
+			<path fill="#A2A2A2" d="M180,604c-6.6,0-12,5.4-12,12s5.4,12,12,12c6.6,0,12-5.4,12-12S186.6,604,180,604z M180,626     c-5.5,0-10-4.5-10-10s4.5-10,10-10c5.5,0,10,4.5,10,10S185.5,626,180,626z"/>
+			<g>
+				<rect x="162" y="598" fill="none" width="36" height="36"/>
+			</g>
+		</g>
+		<g>
+			<path fill="#A2A2A2" d="M290,607v18l-18,0v-18H290 M290,605h-18c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h18c1.1,0,2-0.9,2-2v-18     C292,605.9,291.1,605,290,605L290,605z"/>
+			<g>
+				<rect x="263" y="598" fill="none" width="36" height="36"/>
+			</g>
+		</g>
+		<g>
+			<rect x="62" y="598" fill="none" width="36" height="36"/>
+			<path fill="#A2A2A2" d="M88,606v20l-17-10L88,606 M88,604c-0.4,0-0.7,0.1-1,0.3l-17,10c-0.6,0.4-1,1-1,1.7s0.4,1.4,1,1.7l17,10     c0.3,0.2,0.7,0.3,1,0.3c0.3,0,0.7-0.1,1-0.3c0.6-0.4,1-1,1-1.7v-20c0-0.7-0.4-1.4-1-1.7C88.7,604.1,88.3,604,88,604L88,604z"/>
+		</g>
+	</g>
+</g><g id="status">
+	<g>
+		<rect opacity="0.25" fill="#212121" width="360" height="24"/>
+		<g>
+			<g>
+				<defs>
+					<polygon id="SVGID_7_" points="249.8,6 258,18 266.2,6      "/>
+				</defs>
+				<clipPath id="SVGID_8_">
+					<use xlink:href="#SVGID_7_" overflow="visible"/>
+				</clipPath>
+				<g clip-path="url(#SVGID_8_)">
+					<path fill="#FFFFFF" fill-opacity="0.3" d="M258,6c-6.6,0-12,5.4-12,12s5.4,12,12,12c6.6,0,12-5.4,12-12S264.6,6,258,6z        M258,27c-5,0-9-4-9-9c0-5,4-9,9-9s9,4,9,9C267,23,263,27,258,27z"/>
+					<path fill="#FFFFFF" fill-opacity="0.9" d="M258,9c-5,0-9,4-9,9c0,5,4,9,9,9s9-4,9-9C267,13,263,9,258,9z M258,24       c-3.3,0-6-2.7-6-6s2.7-6,6-6c3.3,0,6,2.7,6,6S261.3,24,258,24z"/>
+					<path fill="#FFFFFF" fill-opacity="0.9" d="M258,12c-3.3,0-6,2.7-6,6s2.7,6,6,6c3.3,0,6-2.7,6-6S261.3,12,258,12z M258,21       c-1.7,0-3-1.3-3-3s1.3-3,3-3c1.7,0,3,1.3,3,3S259.7,21,258,21z"/>
+					<circle fill="#FFFFFF" fill-opacity="0.9" cx="258" cy="18" r="3"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<polygon id="SVGID_9_" points="288,18 288,6 276,18      "/>
+				</defs>
+				<clipPath id="SVGID_10_">
+					<use xlink:href="#SVGID_9_" overflow="visible"/>
+				</clipPath>
+				<rect x="285" y="6" clip-path="url(#SVGID_10_)" fill="#FFFFFF" fill-opacity="0.3" width="3" height="12"/>
+				<rect x="282" y="6" clip-path="url(#SVGID_10_)" fill="#FFFFFF" fill-opacity="0.3" width="3" height="12"/>
+				<rect x="279" y="6" clip-path="url(#SVGID_10_)" fill="#FFFFFF" fill-opacity="0.9" width="3" height="12"/>
+				<rect x="276" y="6" clip-path="url(#SVGID_10_)" fill="#FFFFFF" fill-opacity="0.9" width="3" height="12"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<path id="SVGID_11_" d="M309,6h-1V5h-4v1h-1c-0.6,0-1,0.4-1,1v10c0,0.6,0.4,1,1,1h6c0.6,0,1-0.4,1-1V7C310,6.4,309.6,6,309,6z"/>
+				</defs>
+				<clipPath id="SVGID_12_">
+					<use xlink:href="#SVGID_11_" overflow="visible"/>
+				</clipPath>
+				<rect x="302" y="15" clip-path="url(#SVGID_12_)" fill="#FFFFFF" fill-opacity="0.9" width="8" height="3"/>
+				<rect x="302" y="12" clip-path="url(#SVGID_12_)" fill="#FFFFFF" fill-opacity="0.9" width="8" height="3"/>
+				<rect x="302" y="9" clip-path="url(#SVGID_12_)" fill="#FFFFFF" fill-opacity="0.3" width="8" height="3"/>
+				<rect x="302" y="6" clip-path="url(#SVGID_12_)" fill="#FFFFFF" fill-opacity="0.3" width="8" height="3"/>
+				<rect x="304" y="5" clip-path="url(#SVGID_12_)" fill="#FFFFFF" fill-opacity="0.3" width="4" height="1"/>
+			</g>
+		</g>
+		<g opacity="0.9">
+			<rect x="311" y="7" fill="none" width="40" height="16"/>
+			<text transform="matrix(1 0 0 1 318.6523 16.7495)" fill="#FFFFFF" font-family="'Roboto-Regular'" font-size="13">12:30</text>
+		</g>
+	</g>
+	<path fill="#FFFFFF" d="M19,58h18v-2H19V58z M19,53h18v-2H19V53z M19,46v2h18v-2H19z"/>
+</g></g><g id="1410890351898" transform="rotate(0)"><symbol id="ic_x5F_backspace_x0D_" viewBox="0 -24 24 24">
+	<polygon fill="none" points="0,0 0,-24 24,-24 24,0  "/>
+	<g>
+		<path d="M22-3L7.1-3C6.4-3,5.8-3.3,5.4-3.9L0-12l5.4-8.1c0.4-0.5,1-0.9,1.7-0.9L22-21c1.1,0,2,0.9,2,2v14C24-3.9,23.1-3,22-3z     M19-15.6L17.6-17L14-13.4L10.4-17L9-15.6l3.6,3.6L9-8.4L10.4-7l3.6-3.6L17.6-7L19-8.4L15.4-12L19-15.6z"/>
+	</g>
+</symbol><symbol id="ic_x5F_keyboardHide" viewBox="0 -24 24 24">
+	<polygon fill="none" points="24,-24 0,-24 0,0 24,0  "/>
+	<path d="M20-3H4C2.9-3,2-3.9,2-5l0-10c0-1.1,0.9-2,2-2h16c1.1,0,2,0.9,2,2v10C22-3.9,21.1-3,20-3z M11-6h2v-2h-2V-6z M11-9h2v-2h-2   V-9z M8-6h2v-2H8V-6z M8-9h2v-2H8V-9z M7-11H5v2h2V-11z M7-8H5v2h2V-8z M16-15H8v2h8V-15z M16-11h-2v2h2V-11z M16-8h-2v2h2V-8z    M19-11h-2v2h2V-11z M19-8h-2v2h2V-8z M12-23l4,4H8L12-23z"/>
+</symbol><symbol id="ic_x5F_mic" viewBox="0 -24 24 24">
+	<g>
+		<path d="M12-15c1.7,0,3,1.3,3,3l0,6c0,1.7-1.3,3-3,3c-1.7,0-3-1.3-3-3v-6C9-13.7,10.3-15,12-15z M17.3-12c0-3-2.5-5.1-5.3-5.1    S6.7-15,6.7-12H5c0-3.4,2.7-6.2,6-6.7V-22h2v3.3c3.3,0.5,6,3.3,6,6.7H17.3z"/>
+	</g>
+	<polygon fill="none" points="24,-24 0,-24 0,0 24,0  "/>
+</symbol><symbol id="ui_x5F_bottomToolbar_x5F_focus_x5F_light_3" viewBox="0 0 440 184">
+	<polygon fill="none" points="440,0 0,0 0,184 440,184  "/>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="400,40 40,40 40,184 400,184    "/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_" overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<g>
+				
+					<image overflow="visible" opacity="0.24" width="375" height="120" xlink:href="D8CEAA579A8EE333.png" transform="matrix(1 0 0 -1 32.5 146.5)">
+				</image>
+				<polygon fill="#FAFAFA" points="40,40 400,40 400,144 40,144     "/>
+			</g>
+			<g>
+				
+					<image overflow="visible" opacity="0.18" width="414" height="158" xlink:href="D8CEAA579A8EE331.png" transform="matrix(1 0 0 -1 13 162)">
+				</image>
+				<polygon fill="#EEEEEE" points="40,40 400,40 400,144 40,144     "/>
+			</g>
+			<g opacity="4.000000e-02">
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="220" y1="40" x2="220" y2="144">
+					<stop offset="0" style="stop-color:#000000"/>
+					<stop offset="4.000000e-02" style="stop-color:#000000;stop-opacity:0"/>
+				</linearGradient>
+				<path fill="url(#SVGID_3_)" d="M399.5,143.5v-103h-359v103H399.5 M400,144H40V40h360V144L400,144z"/>
+			</g>
+			<g opacity="0.8">
+				<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="220" y1="40" x2="220" y2="144">
+					<stop offset="0.8" style="stop-color:#FFFFFF;stop-opacity:0"/>
+					<stop offset="0.9725" style="stop-color:#FFFFFF;stop-opacity:0.8625"/>
+					<stop offset="1" style="stop-color:#FFFFFF"/>
+				</linearGradient>
+				<path fill="url(#SVGID_4_)" d="M399.5,143.5v-103h-359v103H399.5 M400,144H40V40h360V144L400,144z"/>
+			</g>
+		</g>
+	</g>
+</symbol><symbol id="ui_x5F_divider_x5F_dark_4" viewBox="0 0 320 1">
+	<g>
+		<defs>
+			<polygon id="SVGID_5_" points="320,0 0,0 0,1 320,1    "/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_" overflow="visible"/>
+		</clipPath>
+		<polygon opacity="0.16" clip-path="url(#SVGID_6_)" points="320,0 0,0 0,0.5 320,0.5   "/>
+	</g>
+</symbol><g id="GUIDES">
+</g><g id="CONTENT">
+	<g id="feed">
+	</g>
+</g><g id="NAV">
+	<g id="nav-bg">
+		<g id="ic_x5F_menu_x0D__2_copy">
+		</g>
+		<g id="ui_x5F_divider_x5F_dark_copy">
+		</g>
+		<g id="ic_x5F_moreVert_x5F_light_copy_2">
+		</g>
+	</g>
+	<g id="nav-main">
+		<g id="ic_x5F_menu_x0D__2">
+		</g>
+		<g id="ui_x5F_divider_x5F_dark">
+		</g>
+		<g id="ic_x5F_moreVert_x5F_light">
+		</g>
+	</g>
+</g><g id="keyboard" display="none">
+	<g display="inline">
+		
+			<use xlink:href="#ui_x5F_bottomToolbar_x5F_focus_x5F_light_3" width="440" height="184" id="XMLID_450_" transform="matrix(1 0 0 -1.663 -40 632.9994)" overflow="visible"/>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M265,583.1c0,0.5-0.5,0.9-1,0.9H96c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H264c0.6,0,1,0.4,1,0.9      V583.1z"/>
+			</g>
+			<path opacity="0.1" d="M255,572c0,1.1-0.9,2-2,2H107c-1.1,0-2-0.9-2-2v-20c0-1.1,0.9-2,2-2h146c1.1,0,2,0.9,2,2V572z"/>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M55,479.1c0,0.5-0.4,0.9-1,0.9H26c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H54c0.5,0,1,0.4,1,0.9      V479.1z"/>
+			</g>
+			<rect x="25" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 34.0166 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">a</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M90,479.1c0,0.5-0.4,0.9-1,0.9H61c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H89c0.5,0,1,0.4,1,0.9      V479.1z"/>
+			</g>
+			<rect x="60" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 69.3281 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">s</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M125,479.1c0,0.5-0.4,0.9-1,0.9H96c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H124c0.5,0,1,0.4,1,0.9      V479.1z"/>
+			</g>
+			<rect x="95" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 103.8555 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">d</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M160,479.1c0,0.5-0.4,0.9-1,0.9H131c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H159      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="130" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 141.2178 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">f</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M195,479.1c0,0.5-0.4,0.9-1,0.9H166c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H194      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="165" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 173.8291 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">g</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M230,479.1c0,0.5-0.4,0.9-1,0.9H201c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H229      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="200" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 208.999 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">h</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M265,479.1c0,0.5-0.4,0.9-1,0.9H236c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H264      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="235" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 247.374 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">j</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M300,479.1c0,0.5-0.4,0.9-1,0.9H271c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H299      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="270" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 279.4775 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">k</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M335,479.1c0,0.5-0.4,0.9-1,0.9H306c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H334      c0.5,0,1,0.4,1,0.9V479.1z"/>
+			</g>
+			<rect x="305" y="449" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 317.3311 465.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">l</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M90,531.1c0,0.5-0.4,0.9-1,0.9H61c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H89c0.5,0,1,0.4,1,0.9      V531.1z"/>
+			</g>
+			<rect x="60" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 69.5811 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">z</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M125,531.1c0,0.5-0.4,0.9-1,0.9H96c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H124c0.5,0,1,0.4,1,0.9      V531.1z"/>
+			</g>
+			<rect x="95" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 104.5811 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">x</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M160,531.1c0,0.5-0.4,0.9-1,0.9H131c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H159      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="130" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 139.2764 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">c</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M195,531.1c0,0.5-0.4,0.9-1,0.9H166c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H194      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="165" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 174.7031 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">v</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M230,531.1c0,0.5-0.4,0.9-1,0.9H201c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H229      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="200" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 208.8652 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">b</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M265,531.1c0,0.5-0.4,0.9-1,0.9H236c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H264      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="235" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 243.9668 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">n</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M300,531.1c0,0.5-0.4,0.9-1,0.9H271c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H299      c0.5,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			<rect x="270" y="501" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 275.416 517.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">m</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M38,427.1c0,0.5-0.4,0.9-1,0.9H9c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H37c0.5,0,1,0.4,1,0.9      V427.1z"/>
+			</g>
+			<rect x="8" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1.0215 0 0 1 16.6133 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">q</text>
+			<text transform="matrix(1 0 0 1 30.4736 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">1</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M73,427.1c0,0.5-0.4,0.9-1,0.9H44c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H72c0.5,0,1,0.4,1,0.9      V427.1z"/>
+			</g>
+			<rect x="43" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 49.7344 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">w</text>
+			<text transform="matrix(1 0 0 1 64.1162 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">2</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M108,427.1c0,0.5-0.4,0.9-1,0.9H79c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H107c0.5,0,1,0.4,1,0.9      V427.1z"/>
+			</g>
+			<rect x="78" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 87.1729 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">e</text>
+			<text transform="matrix(1 0 0 1 99.3105 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">3</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M143,427.1c0,0.5-0.4,0.9-1,0.9H114c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H142      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="113" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9905 0 0 1 124.3135 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">r</text>
+			<text transform="matrix(1 0 0 1 134.502 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">4</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M178,427.1c0,0.5-0.4,0.9-1,0.9H149c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H177      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="148" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 159.4072 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">t</text>
+			<text transform="matrix(1 0 0 1 169.541 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">5</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M213,427.1c0,0.5-0.4,0.9-1,0.9H184c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H212      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="183" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 192.7959 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">y</text>
+			<text transform="matrix(1 0 0 1 204.7393 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">6</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M248,427.1c0,0.5-0.4,0.9-1,0.9H219c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H247      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="218" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 226.9365 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">u</text>
+			<text transform="matrix(1 0 0 1 238.9268 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">7</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M283,427.1c0,0.5-0.4,0.9-1,0.9H254c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H282      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="253" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 265.3311 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">i</text>
+			<text transform="matrix(1 0 0 1 274.1211 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">8</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M318,427.1c0,0.5-0.4,0.9-1,0.9H289c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H317      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="288" y="398" fill="none" width="30" height="28"/>
+			<text transform="matrix(1 0 0 1 296.7266 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">o</text>
+			<text transform="matrix(1 0 0 1 309.3135 394.6987)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">9</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M352,427.1c0,0.5-0.4,0.9-1,0.9H324c-0.5,0-1-0.4-1-0.9v-50.1c0-0.5,0.4-0.9,1-0.9H351      c0.5,0,1,0.4,1,0.9V427.1z"/>
+			</g>
+			<rect x="323" y="398" fill="none" width="29" height="28"/>
+			<text transform="matrix(1 0 0 1 331.3291 414.4995)" fill="#757575" font-family="'Roboto-Regular'" font-size="22">p</text>
+			<text transform="matrix(1 0 0 1 343.9463 394.9585)" fill="#999999" font-family="'Roboto-Regular'" font-size="9">0</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M55,531.1c0,0.5-0.5,0.9-1,0.9H9c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H54c0.6,0,1,0.4,1,0.9      V531.1z"/>
+			</g>
+			<g>
+				<polygon opacity="0.25" points="35,510 40,510 31,501 22,510 27,510 27,518 35,518     "/>
+			</g>
+		</g>
+		<rect x="21" y="498" fill="none" width="24" height="24"/>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M55,583.1c0,0.5-0.5,0.9-1,0.9H9c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H54c0.6,0,1,0.4,1,0.9      V583.1z"/>
+			</g>
+			<rect x="8" y="558" fill="none" width="47" height="28"/>
+			<text transform="matrix(1 0 0 1 17.96 566.9995)"><tspan x="0" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">?</tspan><tspan x="6.1" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">1</tspan><tspan x="12.6" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">2</tspan><tspan x="20.3" y="0" fill="#999999" font-family="'Roboto-Regular'" font-size="12">3</tspan></text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M300,583.1c0,0.5-0.4,0.9-1,0.9H271c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H299      c0.5,0,1,0.4,1,0.9V583.1z"/>
+			</g>
+			<rect x="270" y="552" fill="none" width="30" height="28"/>
+			<text transform="matrix(0.9941 0 0 1 282.1221 568.4985)" fill="#999999" font-family="'Roboto-Regular'" font-size="22">.</text>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M352,531.1c0,0.5-0.5,0.9-1,0.9H306c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H351      c0.6,0,1,0.4,1,0.9V531.1z"/>
+			</g>
+			
+				<use xlink:href="#ic_x5F_backspace_x0D_" width="24" height="24" id="XMLID_449_" y="-24" transform="matrix(1 0 0 -1 316 497.9995)" overflow="visible" opacity="0.25"/>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M352,583.1c0,0.5-0.5,0.9-1,0.9H306c-0.6,0-1-0.4-1-0.9v-42.1c0-0.5,0.5-0.9,1-0.9H351      c0.6,0,1,0.4,1,0.9V583.1z"/>
+			</g>
+			
+				<use xlink:href="#ic_x5F_keyboardHide" width="24" height="24" y="-24" transform="matrix(1 0 0 -1 317 549.9995)" overflow="visible" opacity="0.5"/>
+		</g>
+		<g>
+			<g opacity="0">
+				<path fill="#FFFFFF" d="M90,583.1c0,0.5-0.4,0.9-1,0.9H61c-0.5,0-1-0.4-1-0.9v-42.1c0-0.5,0.4-0.9,1-0.9H89c0.5,0,1,0.4,1,0.9      V583.1z"/>
+			</g>
+			
+				<use xlink:href="#ic_x5F_mic" width="24" height="24" id="XMLID_448_" x="0" y="-24" transform="matrix(1 0 0 -1 63 549.9995)" overflow="visible" opacity="0.5"/>
+		</g>
+		
+			<use xlink:href="#ui_x5F_divider_x5F_dark_4" width="320" height="1" id="XMLID_447_" x="0" y="0" transform="matrix(1.125 0 0 -1 2.144809e-05 367.9997)" overflow="visible"/>
+	</g>
+</g><g id="deck">
+</g><g id="status">
+	<g>
+		<path fill="#FFFFFF" stroke="#999999" stroke-miterlimit="10" d="M296,440H64c-2.2,0-4-1.8-4-4V124c0-2.2,1.8-4,4-4h232    c2.2,0,4,1.8,4,4v312C300,438.2,298.2,440,296,440z"/>
+		<g>
+			<path fill="#FF5A5A" d="M200.8,184.9c-5.2,0-9.2,4.1-9.2,9.2s4.1,9.2,9.2,9.2s9.2-4.1,9.2-9.2S206,184.9,200.8,184.9z      M200.8,196.8c-1.6,0-2.8-1.2-2.8-2.8c0-1.6,1.2-2.8,2.8-2.8s2.8,1.2,2.8,2.8C203.6,195.6,202.4,196.8,200.8,196.8z"/>
+			<path fill="#FF5A5A" d="M203.1,231.8c-7.6,0-14.9-3-20.4-8.4c-5.5-5.5-8.4-12.6-8.4-20.4c0-1.8-1.4-3.2-3.2-3.2     c-1.8,0-3.2,1.4-3.2,3.2c0,9.4,3.7,18.3,10.3,24.9c6.6,6.6,15.5,10.3,24.9,10.3c1.8,0,3.2-1.4,3.2-3.2     C206.3,233.2,204.9,231.8,203.1,231.8z"/>
+			<path fill="#FF5A5A" d="M260,179.7c0-1.8-1.4-3.2-3.2-3.2c-1.8,0-3,1.4-3.2,3l0,0c0,0.7,0,1.2-0.2,2l0,0     c-0.2,1.1-0.5,2.3-0.9,3.4c-0.7,1.6-1.6,3-2.8,4.3l-22.9,22.4v-31.8c0-7.5,6-13.3,13.3-13.3c1.8,0,3.2-1.4,3.2-3.2     c0-1.8-1.2-3.2-3-3.2h-28.4c-3.7,0-7.5,0.2-11.4,0.5c-24.4,2.5-46.2,12.6-63.3,28.1h-34c-1.8,0-3.2,1.4-3.2,3.2v88l0,0l0,0     c0,3.6,0.5,6.9,1.4,10.3v0.2c2,6.8,5.5,12.8,10.5,17.8c7.8,7.6,18.1,11.9,29,11.9c0.2,0,0.4,0,0.5,0l0,0l0,0l0,0     c0.5,0,1.1,0,1.6,0h0.4c1.2-0.2,2.7-0.4,3.9-0.7l54.8-14.6l26.1,14.9c0.5,0.4,1.1,0.4,1.6,0.4c0.5,0,1.1-0.2,1.6-0.4     c1.1-0.5,1.6-1.6,1.6-2.8V266c0-1.1-0.5-2.1-1.6-2.8c-1.1-0.5-2.1-0.5-3.2,0l-26,14.9l-10.8-4.1c9.8-4.1,19-9.6,27.4-16.5     c12.3-10,22.4-22.8,29.5-37c6-12.3,10.3-23.5,11.6-38.6C259.8,181.2,260,180.4,260,179.7C260,179.9,260,179.9,260,179.7     L260,179.7C260,179.9,260,179.9,260,179.7z M119,209.4h-12.6c0-5.2,0-10,0-14.4h24.2C126.3,199.5,122.6,204.3,119,209.4z      M115.1,215.8c-3.4,5.9-6.4,12.1-8.7,18.7c0-6,0-12.4,0-18.7H115.1z M205.8,283.6l20.8-11.9V282h-6.2c-1.8,0-3.2,1.4-3.2,3.2     s1.4,3.2,3.2,3.2h6.2v6.4h-6.2c-1.8,0-3.2,1.4-3.2,3.2c0,1.8,1.4,3.2,3.2,3.2h6.2v10.1l-20.8-11.9V283.6z M199.4,283.9v14.8     l-53.7,14.4c-0.9,0.2-1.8,0.4-2.7,0.4h-0.4c-0.4,0-0.9,0-1.2,0c-8.4-0.2-14.9-6.9-14.9-15.3c0-8.5,6.9-15.3,15.3-15.3     c0,0,0,0,0.2,0l0,0l6.9-0.2l0,0c1.2,0,5.2-0.2,7.1-0.4c7.8-0.5,15.6-2,23.1-4.1c1.1-0.4,2-0.7,3-0.9L199.4,283.9z M242.6,217.8     c-6.6,13.3-16.2,25.4-27.7,34.8c-11,9.1-23.6,15.6-37.3,19.6c-7.1,2.1-14.4,3.4-21.9,3.9c-2.3,0.2-7.1,0.2-7.1,0.2l0,0l-6.8,0.2     l0,0c-11.9,0-21.7,9.8-21.7,21.7c0,3.6,0.9,7.1,2.5,10.1c-2.1-1.4-4.3-3-6-4.8c-4.1-4.1-7.1-9.2-8.7-14.8v-0.2     c-0.9-2.8-1.2-5.9-1.2-8.7v-0.7v-8.5v-0.9c0.4-29.7,13.3-56.5,34-75.6l0.2-0.2c16.2-14.8,37.2-24.7,60.4-27     c3.6-0.4,7.3-0.5,10.7-0.5h13.9c-3.2,3.6-5.3,8.2-5.3,13.3l0,0V219c0,1.8,1.4,3.2,3.2,3.2c0.9,0,1.6-0.4,2.3-0.9l0,0l25.1-24.4     C249,204.3,246.1,210.8,242.6,217.8z"/>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 87.2972 383.9531)" fill="#212121" font-family="'Roboto-Regular'" font-size="28">Paul Upstream</text>
+		</g>
+	</g>
+</g><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" additive="sum" type="scale" from="1.00" to="1.00" fill="freeze"/><animateMotion begin="0.00s" dur="1.74s" from="100,100" to="100,100" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" type="rotate" from="0 120 160" to="30 120 160" onend="animationReset(&quot;1410890351898&quot;, &quot;rotate&quot;, &quot;30 120 160&quot;)" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" additive="sum" type="scale" from="1.00" to="1.00" fill="freeze"/><animateMotion begin="0.00s" dur="1.74s" from="100,100" to="400,100" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" type="rotate" from="0 120 160" to="30 120 160" onend="animationReset(&quot;1410890351898&quot;, &quot;rotate&quot;, &quot;30 120 160&quot;)" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" additive="sum" type="scale" from="1.00" to="1.00" fill="freeze"/><animateMotion begin="0.00s" dur="1.74s" from="0,0" to="400,100" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" type="rotate" from="0 120 160" to="30 120 160" onend="animationReset(&quot;1410890351898&quot;, &quot;rotate&quot;, &quot;30 120 160&quot;)" fill="freeze"/><animate attributeName="opacity" attributeType="css" begin="0.00s" dur="1.74s" from="1.0" to="1.0" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" additive="sum" type="scale" from="1.00" to="1.00" fill="freeze"/><animateMotion begin="0.00s" dur="1.74s" from="0,0" to="400,100" fill="freeze"/><animateTransform attributeName="transform" begin="0.00s" dur="1.74s" type="rotate" from="0 120 160" to="30 120 160" onend="animationReset(&quot;1410890351898&quot;, &quot;rotate&quot;, &quot;30 120 160&quot;)" fill="freeze"/></g></svg>

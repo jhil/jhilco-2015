@@ -6,8 +6,8 @@
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Feb 2015 21:19:32 -0500</pubDate>
-    <lastBuildDate>Sat, 07 Feb 2015 21:19:32 -0500</lastBuildDate>
+    <pubDate>Mon, 23 Feb 2015 15:39:19 -0500</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2015 15:39:19 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,11 +23,52 @@
     
       <item>
         <title>Architecture</title>
-        <description>
+        <description>&lt;h2 id=&quot;final-project&quot;&gt;Final Project&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-final-board.png&quot; alt=&quot;Final project board&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;//www.youtube.com/embed/O30qTHcVdeA?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;//www.youtube.com/embed/R33u5YYgfcg?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-final-definition.png&quot; alt=&quot;Final project definition&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-final-diagram.png&quot; alt=&quot;Final project diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-final-comp.jpg&quot; alt=&quot;Final project composite&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;assignment-3-visualization&quot;&gt;Assignment 3: Visualization&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-3-board.png&quot; alt=&quot;3 board&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-3-diagram.png&quot; alt=&quot;3 diagram&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;midterm-capturing-process&quot;&gt;Midterm: Capturing Process&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-midterm-board.png&quot; alt=&quot;Midterm board&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-midterm-definition.png&quot; alt=&quot;Midterm board&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;assignment-2-digital-to-physical&quot;&gt;Assignment 2: Digital to Physical&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-2-board.png&quot; alt=&quot;2 board&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-2-render-open.jpg&quot; alt=&quot;2 render open&quot; /&gt;
+&lt;img src=&quot;/assets/architecture/architecture-2-render-half.jpg&quot; alt=&quot;2 render half&quot; /&gt;
+&lt;img src=&quot;/assets/architecture/architecture-2-render-closed.jpg&quot; alt=&quot;2 render closed&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;folding&quot;&gt;Folding&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-folding.png&quot; alt=&quot;Folding&quot; /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 16 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://jhil.co/2014-12-16-architecture</link>
-        <guid isPermaLink="true">http://jhil.co/2014-12-16-architecture</guid>
+        <link>http://jhil.co/architecture</link>
+        <guid isPermaLink="true">http://jhil.co/architecture</guid>
         
         
       </item>
@@ -56,7 +97,33 @@
     
       <item>
         <title>Amation</title>
-        <description>&lt;p&gt;Content. Someday.&lt;/p&gt;
+        <description>&lt;p&gt;Amation combines the extensive capabilities of SVG with the power of media tools and animation. Users animate vectors in a timeline-based editor suite (like After Effects) and can distribute them as native SVGs, in all their scalable glory.&lt;/p&gt;
+
+&lt;p&gt;Amation is for the design community. UI design workflows include prototyping interactions to communicate with developers. With Amation, designers can maintain a full vector workflow, ultimately saving time, easing distribution, and improving performance.&lt;/p&gt;
+
+&lt;p&gt;Scalable Vector Graphic, or SVG, is extremely powerful file format. SVG is often used for individual assets, but has media opportunities in motion graphics, animation, and video. While raster media (like GIFs and MP4s) are based on grids of pixels that lose quality when resized, SVGs are infinitely scalable and lite. Since they’re XML-based, Amation uses JavaScript to manipulate the code and create packaged, native SVG media files that animate in the browser.&lt;/p&gt;
+
+&lt;p&gt;The interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/amation/amation-web-1.png&quot; alt=&quot;Amation interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Adding new files by dragging on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/amation/amation-web-1-dragdrop.png&quot; alt=&quot;Amation drag-n-drop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dialog box with delete confirmation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/amation/amation-web-1-dialog.png&quot; alt=&quot;Amation dialog&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- And finally, here is a sample interaction created with Amation.
+
+![Amation sample](/assets/amation/amation-sample.svg)
+ --&gt;
+&lt;p&gt;I recorded my screen while designing this project. This video will show my workflow and endless iterations and tweaks that went into creating Amation. Enjoy!&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;//www.youtube.com/embed/f_LtU9XXL8o?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Sun, 14 Sep 2014 00:00:00 -0400</pubDate>
         <link>http://jhil.co/amation</link>
