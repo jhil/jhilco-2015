@@ -34,3 +34,9 @@ I recorded my screen while designing this project. This video will show my workf
 <div class="embed-container">
     <iframe width="1280" height="720" src="//www.youtube.com/embed/f_LtU9XXL8o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </div>
+
+We won the IBM Design prize at PennApps Fall 2014 for Amation. They generously flew us out to Austin, TX to visit the IBM Design team and talk more about Amation.
+
+![Dan](/assets/{{ page.title | slugify }}/amation-dan.jpg)
+
+![Team at IBM Design](/assets/{{ page.title | slugify }}/amation-ibmteam.jpg)
