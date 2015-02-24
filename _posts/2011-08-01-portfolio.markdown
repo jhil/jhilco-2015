@@ -20,14 +20,14 @@ This first website was hardcoded and static. I moved to a [Wordpress theme](http
 
 After this, I embarked on learning Wordpress and PHP to develop custom sites. Not only did this open a new channel of freelance business for me, but my new skills allowed me to design and develop my own CMS-powered portfolios. This last iteration of [jhilmediadesign.com](http://jhilmediadesign.com) is my one of my favorite sites. I mark this project as the beginning of my minimalist design aesthetic.
 
-![JHil Media Design, v3](/assets/{{ page.title | slugify }}/portfolio-jhil-3.png)
-![JHil Media Design, v3 project page](/assets/{{ page.title | slugify }}/portfolio-jhil-3-project.png)
+![JHil Media Design, v3](/assets/{{ page.title | slugify }}/portfolio-jhil-3.png){: .shadow }
+![JHil Media Design, v3 project page](/assets/{{ page.title | slugify }}/portfolio-jhil-3-project.png){: .shadow }
 
 It's now 2013. I hit a point in my freelance business where I wanted to [focus on more personal projects](https://medium.com/i-m-h-o/build-your-own-dreams-yo-32102d680e61).
 
 I began using `jhil.co` as my primary portfolio. This is my first take at it. This also marks my first attempt at JavaScript, where hovering over an element changes the header text to a project description. This was the coolest thing ever! Check out [older.jhil.co](older.jhil.co).
 
-![jhil portfolio, v1](/assets/{{ page.title | slugify }}/portfolio-jhil-4.png)
+![jhil portfolio, v1](/assets/{{ page.title | slugify }}/portfolio-jhil-4.png){: .shadow }
 
 I wanted my portfolio to really say something. At that point, it only said that my favorite color is yellow. After experimenting a tad with personal branding, [I settled on something I liked](https://dribbble.com/shots/1444745-JHIL).
 
@@ -45,8 +45,8 @@ I also began learning how to use CSS animations. I prototyped a website intro th
 
 This was cute and friendly, but I knew it wouldn't last long due to its experimental nature and lack of clarity or flow. In October 2014, I created this site for the start of the new schoolyear. It is the most thorough out of all my projects, with project descriptions and a more mature set of portfolio items. I learned how to use [Jekyll](http://jekyllrb.com/), the stripped-down reincarnation of what I always wanted Wordpress to be. I also used [Github Pages](https://pages.github.com/) for the first time, dramatically improving my workflow. And now this, [jhil.co](http://jhil.co) (you're already here).
 
-![jhil portfolio, v3](/assets/{{ page.title | slugify }}/portfolio-jhil-6.png)
-![jhil portfolio, v3 project](/assets/{{ page.title | slugify }}/portfolio-jhil-6-project.png)
+![jhil portfolio, v3](/assets/{{ page.title | slugify }}/portfolio-jhil-6.png){: .shadow }
+![jhil portfolio, v3 project](/assets/{{ page.title | slugify }}/portfolio-jhil-6-project.png){: .shadow }
 
 What's next?
 

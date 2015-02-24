@@ -20,4 +20,4 @@ behance_username:	jhil
 markdown: kramdown
 
 # Alias
-pipe:	{{ page.title | prepend: "/assets/"}}
+pipe:	{{ page.title | prepend: "/assets/" }}

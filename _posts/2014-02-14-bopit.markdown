@@ -13,9 +13,8 @@ After initially coming up with the concept, my role consisted of designing the i
 
 ![](/assets/{{ page.title | slugify }}/bopit-vector.png)
 
-![](/assets/{{ page.title | slugify }}/bopit-web-play.png)
-
-![](/assets/{{ page.title | slugify }}/bopit-web-start.png)
+![](/assets/{{ page.title | slugify }}/bopit-web-play.png){: .shadow }
+![](/assets/{{ page.title | slugify }}/bopit-web-start.png){: .shadow }
 
 Major League Hacking featured our team in a quick video midway through the hackathon. It demos some of the functionality and visuals of the game.
 
