@@ -7,9 +7,9 @@ excerpt: Explorations in the built environment
 color:  "#3471aa"
 ---
 
-In the Fall 2014 semester, I enrolled in ARCH470: Architecture Technology. I had already taken a couple introductory architecture courses, but this would be my first advanced class on the topic. In ARCH470, I completed a series of assignments / side projects that actively used the skills I was learning in class including Rhinoceros, Grasshopper, V-Ray, Revit, and Photoshop.
+In the Fall 2014 semester, I enrolled in ARCH470: Architecture Technology. I had already taken a couple introductory architecture courses, but this would be my first advanced class on the topic. In ARCH470, I completed a series of assignments that actively used the curiculum's software as I learned it. These tools included Rhinoceros, Grasshopper, V-Ray, Revit, Photoshop, 3ds Maxx, and SketchUp.
 
-The project below include a presentation board, highlighted assets, and maybe a process picture or two. Most of the descriptions are pulled directly from the boards.
+The projects below are composed of presentation boards, highlighted assets, and maybe a process picture or two. The descriptions are pulled directly from the boards.
 
 ## Final Project
 
@@ -49,7 +49,7 @@ The pavilion’s wide podium targets its energy at the provided seating, but has
 
 ## Midterm: Capturing Process
 
-This assignment revolved around the Grasshopper plugin for Rhinocerous. While it can be used to create a boundless number of structures, I was particularly interested in its data analysis tools.
+This assignment revolved around the Grasshopper plugin for Rhino. While it can be used to create a boundless number of structures, I was particularly interested in its data analysis tools.
 
 Using the Elk’s site mapping tools, I set out to fuse New York’s iconic streetmap and buildings with San Fracisco’s notoriously hilly topography. Elk employs OpenStreetMap.org and Shuttle Radar Topography Mission (SRTM) data from NASA, so this model simulates this concept with real data.
 
