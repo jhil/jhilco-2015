@@ -83,9 +83,6 @@
     text-transform: lowercase;
     margin: 0;
 
-    @include media-query($on-laptop) {
-        display: none;
-    }
 
 }
 
@@ -93,11 +90,21 @@
     color: $white;
 }
 
+
+.home .excerpt {
+    @include media-query($on-laptop) {
+        display: none;
+    }   
+}
+
 .post-link {
     display: block;
-    
+
     h2 {
         font-size: 4rem;
+        @include media-query($on-laptop) {
+            font-size: 2.5rem;
+        }
     }
 
 }
@@ -118,6 +125,9 @@ a.post-link {
 
 .post-title {
     font-size: 4rem;
+    @include media-query($on-laptop) {
+        font-size: 3rem;
+    }
     letter-spacing: -1px;
     line-height: 1;
 }
@@ -127,6 +137,9 @@ a.post-link {
 
     h2 {
         font-size: 2.5rem;
+        @include media-query($on-laptop) {
+            font-size: 2rem;
+        }
         margin-top: $spacing-unit;
         text-align: center;
     }

@@ -178,17 +178,21 @@ a code {
 .post-meta {
   text-transform: lowercase;
   margin: 0; }
-  @media screen and (max-width: 800px) {
-    .post-meta {
-      display: none; } }
 
 .home .post-meta {
   color: #ffffff; }
+
+@media screen and (max-width: 800px) {
+  .home .excerpt {
+    display: none; } }
 
 .post-link {
   display: block; }
   .post-link h2 {
     font-size: 4rem; }
+    @media screen and (max-width: 800px) {
+      .post-link h2 {
+        font-size: 2.5rem; } }
 
 a.post-link {
   color: #ffffff; }
@@ -202,6 +206,9 @@ a.post-link {
   font-size: 4rem;
   letter-spacing: -1px;
   line-height: 1; }
+  @media screen and (max-width: 800px) {
+    .post-title {
+      font-size: 3rem; } }
 
 .post-content {
   margin-bottom: 3rem; }
@@ -209,6 +216,9 @@ a.post-link {
     font-size: 2.5rem;
     margin-top: 3rem;
     text-align: center; }
+    @media screen and (max-width: 800px) {
+      .post-content h2 {
+        font-size: 2rem; } }
   .post-content ul li {
     margin-bottom: .5em;
     padding-left: .5em; }
