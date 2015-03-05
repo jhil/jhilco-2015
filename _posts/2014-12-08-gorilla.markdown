@@ -7,7 +7,7 @@ excerpt: Bio-inspired robotic gait project
 color:  "#5B3E30"
 ---
 
-I teamed up with Eileen McMahon and Brandon Gotwalt in our Biologically Inspired Robotics course (ENME489L) to build a gorilla robot. The project involved studying a certain animal's gait and build a robot that exhibits that animal's walk cycles.
+I teamed up with Eileen McMahon and Brandon Gotwalt in our Biologically Inspired Robotics course (ENME489L) to build a gorilla robot. The project involved studying a certain animal's gait and building a robot that demonstrates that animal's walk cycles.
 
 ![Silverback gorilla](/assets/{{ page.title | slugify }}/gorilla-silverback.jpg)
 
