@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Grandy"
+date:   2014-11-17
+link:	grandy.io
+excerpt: Freelance design marketplace
+color:  "#27C684"
+---
+
+Grandy removes the pain from the freelancing process for both designers and clients with a marketplace for $1k projects.
+
+For freelancers, Grandy makes it easy to consistently keep clients in the funnel and reduce effort on negotiations so they can spend more time actually focused on doing what they do well: designing. For clients, Grandy helps find top quality designers without the fear of shoddy work, poor communication, or out-of-control budgets.
+
+![Mockup](/assets/{{ page.title | slugify }}/mockup.png)
+![Grandy logo](/assets/{{ page.title | slugify }}/grandy-logo.png)
+![Side](/assets/{{ page.title | slugify }}/grandy-browse.png){: .shadow }
+![Side](/assets/{{ page.title | slugify }}/grandy-freelancers.png){: .shadow }
+![Side](/assets/{{ page.title | slugify }}/grandy-project-messages.png){: .shadow }
+![Side](/assets/{{ page.title | slugify }}/grandy-project-overview.png){: .shadow }
+![Side](/assets/{{ page.title | slugify }}/grandy-project-inspiration.png){: .shadow }
+![Side](/assets/{{ page.title | slugify }}/grandy-signup.png){: .shadow }
+![Side](/assets/{{ page.title | slugify }}/grandy-signup-complete.png){: .shadow }
