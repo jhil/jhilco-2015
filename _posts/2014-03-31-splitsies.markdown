@@ -30,9 +30,9 @@ Splitsies was inspired by apps like Level and Robinhood. These are financial too
 
 ## Screens
 
-![](/assets/{{ page.title | slugify }}/app-pt1.gif){: .center }
+![](/assets/{{ page.title | slugify }}/app-pt1.gif){: .center .shadow }
 
-![](/assets/{{ page.title | slugify }}/app-pt2.gif){: .center }
+![](/assets/{{ page.title | slugify }}/app-pt2.gif){: .center .shadow }
 
 ![](/assets/{{ page.title | slugify }}/app-v-7-new_framed.png)
 
