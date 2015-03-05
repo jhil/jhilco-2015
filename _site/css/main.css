@@ -173,9 +173,12 @@ a code {
     margin-bottom: 1.5rem; }
     @media screen and (max-width: 800px) {
       .post-list > a {
-        padding: 3rem 1.5rem; } }
+        padding: 2.25rem 1.5rem; } }
     .post-list > a h2, .post-list > a p {
       margin: 0; }
+      @media screen and (max-width: 800px) {
+        .post-list > a h2, .post-list > a p {
+          line-height: 1.35; } }
 
 .post-meta {
   text-transform: lowercase;
