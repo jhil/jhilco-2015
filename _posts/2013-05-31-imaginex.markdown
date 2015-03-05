@@ -52,4 +52,4 @@ Eric wanted his highly-visual portfolio to speak for itself on his site. We doub
 ![Imaginex website](/assets/{{ page.title | slugify }}/imaginex-web-2.png)
 ![Imaginex website devices](/assets/{{ page.title | slugify }}/imaginex-web-2all.png)
 
-[Charlie Hulcher](http://hulchr.com/) coded up this design. The website stands proud at [imaginex.co](http://imaginex.co).
+[Charlie Hulcher](http://hulchr.com/) coded up this design.
