@@ -11,7 +11,7 @@ Amation combines the extensive capabilities of SVG with the power of media tools
 
 Amation is for the design community. UI design workflows include prototyping interactions to communicate with developers. With Amation, designers can maintain a full vector workflow, ultimately saving time, easing distribution, and improving performance.
 
-Scalable Vector Graphic, or SVG, is extremely powerful file format. SVG is often used for individual assets, but has media opportunities in motion graphics, animation, and video. While raster media (like GIFs and MP4s) are based on grids of pixels that lose quality when resized, SVGs are infinitely scalable and lite. Since they're XML-based, Amation uses JavaScript to manipulate the code and create packaged, native SVG media files that animate in the browser.
+Scalable Vector Graphic, or SVG, is an extremely powerful file format. SVG is often used for individual assets, but has media opportunities in motion graphics, animation, and video. While raster media (like GIFs and MP4s) are based on grids of pixels that lose quality when resized, SVGs are infinitely scalable and lite. Since they're XML-based, Amation uses JavaScript to manipulate the code and create packaged, native SVG media files that animate in the browser.
 
 The interface.
 
@@ -25,11 +25,18 @@ Dialog box with delete confirmation.
 
 ![Amation dialog](/assets/{{ page.title | slugify }}/amation-web-1-dialog.png)
 
+Below is a quick demo of the product in use after about 24 hours of building.
+
+<div class="embed-container">
+    <iframe width="1280" height="720" src="//www.youtube.com/embed/pmm7UmDyQyE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 <!-- And finally, here is a sample interaction created with Amation.
 
 ![Amation sample](/assets/{{ page.title | slugify }}/amation-sample.svg)
  -->
-I recorded my screen while designing this project. This video will show my workflow and endless iterations and tweaks that went into creating Amation. Enjoy!
+I recorded my screen while designing this project. This video will show my workflow and the many iterations that went into creating Amation. Enjoy!
 
 <div class="embed-container">
     <iframe width="1280" height="720" src="//www.youtube.com/embed/f_LtU9XXL8o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -37,6 +44,8 @@ I recorded my screen while designing this project. This video will show my workf
 
 We won the IBM Design prize at PennApps Fall 2014 for Amation. They generously flew us out to Austin, TX to visit the IBM Design team and talk more about Amation.
 
+![Brainstorming](/assets/{{ page.title | slugify }}/amation-brainstorming.jpg)
+![David](/assets/{{ page.title | slugify }}/amation-david.jpg)
 ![Dan](/assets/{{ page.title | slugify }}/amation-dan.jpg)
 
 ![Team at IBM Design](/assets/{{ page.title | slugify }}/amation-ibmteam.jpg)
