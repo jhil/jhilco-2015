@@ -69,6 +69,8 @@ In Assignment 2, we use paneling tools in Rhino to create unique experiences, co
 ![2 render half](/assets/{{ page.title | slugify }}/architecture-2-render-half.jpg)
 ![2 render closed](/assets/{{ page.title | slugify }}/architecture-2-render-closed.jpg)
 
+![2 3D print](/assets/{{ page.title | slugify }}/architecture-2-print.jpg)
+
 ## Folding
 
 ![Folding](/assets/{{ page.title | slugify }}/architecture-folding.png)

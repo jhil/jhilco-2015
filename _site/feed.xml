@@ -6,8 +6,8 @@
 </description>
     <link>http://jhil.co/</link>
     <atom:link href="http://jhil.co/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Mar 2015 22:47:30 -0500</pubDate>
-    <lastBuildDate>Wed, 04 Mar 2015 22:47:30 -0500</lastBuildDate>
+    <pubDate>Thu, 05 Mar 2015 03:02:33 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Mar 2015 03:02:33 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -74,6 +74,8 @@
 &lt;img src=&quot;/assets/architecture/architecture-2-render-half.jpg&quot; alt=&quot;2 render half&quot; /&gt;
 &lt;img src=&quot;/assets/architecture/architecture-2-render-closed.jpg&quot; alt=&quot;2 render closed&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-2-print.jpg&quot; alt=&quot;2 3D print&quot; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;folding&quot;&gt;Folding&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/architecture/architecture-folding.png&quot; alt=&quot;Folding&quot; /&gt;&lt;/p&gt;
@@ -88,7 +90,7 @@
     
       <item>
         <title>Gorilla</title>
-        <description>&lt;p&gt;I teamed up with Eileen McMahon and Brandon Gotwalt in our Biologically Inspired Robotics course (ENME489L) to build a gorilla robot. The project involved studying a certain animal’s gait and build a robot that exhibits that animal’s walk cycles.&lt;/p&gt;
+        <description>&lt;p&gt;I teamed up with Eileen McMahon and Brandon Gotwalt in our Biologically Inspired Robotics course (ENME489L) to build a gorilla robot. The project involved studying a certain animal’s gait and building a robot that demonstrates that animal’s walk cycles.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/gorilla/gorilla-silverback.jpg&quot; alt=&quot;Silverback gorilla&quot; /&gt;&lt;/p&gt;
 
@@ -307,9 +309,9 @@ By connecting with Facebook, users can easily charge directly to Venmo, or alter
 
 &lt;h2 id=&quot;screens&quot;&gt;Screens&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/splitsies/app-pt1.gif&quot; alt=&quot;&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/splitsies/app-pt1.gif&quot; alt=&quot;&quot; class=&quot;center shadow&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/splitsies/app-pt2.gif&quot; alt=&quot;&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/splitsies/app-pt2.gif&quot; alt=&quot;&quot; class=&quot;center shadow&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/splitsies/app-v-7-new_framed.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
