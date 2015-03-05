@@ -11,7 +11,7 @@ Grandy removes the pain from the freelancing process for both designers and clie
 
 For freelancers, Grandy makes it easy to consistently keep clients in the funnel and reduce effort on negotiations so they can spend more time actually focused on doing what they do well: designing. For clients, Grandy helps find top quality designers without the fear of shoddy work, poor communication, or out-of-control budgets.
 
-I partnered with [Jackson Geller](https://github.com/jaxgeller) when building this. We took Grandy to [YC](http://www.ycombinator.com), but didn't get past the final interview round. I hope to find the time and focus soon to finish building this out.
+I partnered with [Jackson Geller](https://github.com/jaxgeller) when building this. We took Grandy to [YC](http://www.ycombinator.com), but didn't get past the final interview round. I hope to find the time and focus soon to release the platform.
 
 ![Mockup](/assets/{{ page.title | slugify }}/mockup.png)
 ![Grandy logo](/assets/{{ page.title | slugify }}/grandy-logo.png)
