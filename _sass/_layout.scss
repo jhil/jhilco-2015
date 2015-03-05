@@ -96,7 +96,7 @@
     display: block;
     @include media-query($on-laptop) {
         display: none;
-    }   
+    }
 }
 
 .post-link {
