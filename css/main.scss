@@ -21,11 +21,9 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 		"variables",
-		"mixins",
         "base",
         "typography",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;
 
 // add "fluidbox"

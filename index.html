@@ -15,8 +15,8 @@ layout: default
       {% endif %}
         <li class="text-center">
           <h2>{{ post.title }}</h2>
-          <p class="post-meta">{{ post.excerpt }}</p>
-          <p class="post-meta">{{ post.date | date: "%Y" }}</p>
+          <p class="post-meta excerpt">{{ post.excerpt }}</p>
+          <p class="post-meta date">{{ post.date | date: "%Y" }}</p>
         </li>
       </a>
     {% endfor %}
