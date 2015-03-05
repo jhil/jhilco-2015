@@ -68,7 +68,10 @@
 
     > a {
         max-width: 720px;
-        padding: 66px $spacing-unit;
+        padding: 1.25*$spacing-unit $spacing-unit;
+        @include media-query($on-laptop) {
+            padding: $spacing-unit $spacing-unit/2;
+        }
         color: $white;
         margin-bottom: $spacing-unit/2;
 
@@ -98,7 +101,6 @@
 
 .post-link {
     display: block;
-
     h2 {
         font-size: 4rem;
         @include media-query($on-laptop) {

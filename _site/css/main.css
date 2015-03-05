@@ -168,9 +168,12 @@ a code {
   list-style: none; }
   .post-list > a {
     max-width: 720px;
-    padding: 66px 3rem;
+    padding: 3.75rem 3rem;
     color: #ffffff;
     margin-bottom: 1.5rem; }
+    @media screen and (max-width: 800px) {
+      .post-list > a {
+        padding: 3rem 1.5rem; } }
     .post-list > a h2, .post-list > a p {
       margin: 0; }
 
