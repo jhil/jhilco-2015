@@ -57,7 +57,7 @@ This project had several iterations. First, I pulled the NYC street data and pla
 
 ![Midterm board](/assets/{{ page.title | slugify }}/architecture-midterm-board.png){: .shadow }
 
-![Midterm board](/assets/{{ page.title | slugify }}/architecture-midterm-definition.png)
+![Midterm definition](/assets/{{ page.title | slugify }}/architecture-midterm-definition.png)
 
 ## Assignment 2: Digital to Physical
 
